@@ -1,0 +1,13 @@
+\\samba.cs.ucalgary.ca\mmpop\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe.config
+\\samba.cs.ucalgary.ca\mmpop\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe
+\\samba.cs.ucalgary.ca\mmpop\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.pdb
+\\samba.cs.ucalgary.ca\mmpop\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\MainWindow.g.cs
+\\samba.cs.ucalgary.ca\mmpop\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\App.g.cs
+\\samba.cs.ucalgary.ca\mmpop\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.cache
+\\samba.cs.ucalgary.ca\mmpop\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1_MarkupCompile.lref
+\\samba.cs.ucalgary.ca\mmpop\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\MainWindow.baml
+\\samba.cs.ucalgary.ca\mmpop\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.g.resources
+\\samba.cs.ucalgary.ca\mmpop\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.Properties.Resources.resources
+\\samba.cs.ucalgary.ca\mmpop\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.csproj.GenerateResource.Cache
+\\samba.cs.ucalgary.ca\mmpop\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.exe
+\\samba.cs.ucalgary.ca\mmpop\documents\visual studio 2015\Projects\WpfApplication1\WpfApplication1\obj\Release\WpfApplication1.pdb
