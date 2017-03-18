@@ -38,7 +38,7 @@ namespace WpfApplication1
                 img.Stretch = Stretch.UniformToFill;
                 img.Height = 45;
                 img.Width = 45;
-                img.Source = new BitmapImage(new Uri(@"\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\EmptyStar.png", UriKind.Absolute));
+                img.Source = new BitmapImage(new Uri(@"C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\EmptyStar.png", UriKind.Absolute));
                 img.MouseEnter += imgRateMinus_MouseEnter;
                 pnlMinus.Children.Add(img);
 
@@ -48,7 +48,7 @@ namespace WpfApplication1
                 img1.Height = 45;
                 img1.Width = 45;
                 img1.Visibility = Visibility.Hidden;
-                img1.Source = new BitmapImage(new Uri(@"\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\FullStar.png", UriKind.Absolute));
+                img1.Source = new BitmapImage(new Uri(@"C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\FullStar.png", UriKind.Absolute));
                 img1.MouseEnter += imgRatePlus_MouseEnter;
                 img1.MouseLeave += imgRatePlus_MouseLeave;
                 img1.MouseLeftButtonUp += imgRatePlus_MouseLeftButtonUp;

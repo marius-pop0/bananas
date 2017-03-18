@@ -26,7 +26,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\WRussian.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\WRussian.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -42,7 +42,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\TSunrise.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\TSunrise.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -58,7 +58,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\Mojito.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\Mojito.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -74,7 +74,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\CLibre.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\CLibre.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -90,7 +90,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\Margarita.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\Margarita.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -105,30 +105,88 @@
         <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" PanningMode="VerticalOnly" HorizontalAlignment="Left" Width="736" Margin="0,330,-1,50">
             <StackPanel Orientation="Vertical" Width="749">
 
+                <TextBlock x:Name="drink5Name" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Cuba Libre" FontFamily="Felix Titling" TextAlignment="Left" />
+                <Button x:Name="drink5Menu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="drink5Menu_Click"/>
+                <Button x:Name="drink5" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="drink5_Click">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\CLibre.jpg" Stretch="Fill"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <TextBlock x:Name="drink5Description" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
+                           Text="&#x2764; 37 &#x0a;&#x0a;&#x0a;A caffeinated alcoholic cocktail made of cola, lime,&#x0a;and dark or light rum" 
+                           FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
+                
+                
+                
                 <TextBlock x:Name="drink1Name" Background="#f4f4f4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,3,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Margarita" FontFamily="Felix Titling" TextAlignment="Left" />
                 <Button x:Name="drink1Menu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="drink1Menu_Click"/>
                 <Button x:Name="drink1" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="562.5" Click="drink1_Click">
                     <Button.Template>
                         <ControlTemplate>
-                            <Image Source="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\Margarita.jpg" Stretch="Fill"/>
+                            <Image Source="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\Margarita.jpg" Stretch="Fill"/>
                         </ControlTemplate>
                     </Button.Template>
                 </Button>
                 <TextBlock x:Name="drink1Description" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
                            Text="&#x2764; 17 &#x0a;&#x0a;Cocktail consisting of Triple Sec, Tequila and Lime &#x0a;or Lemon Juice, often served with Salt or Sugar on &#x0a;the rim of the glass." 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
+
+                
+                
+                <TextBlock x:Name="drink3Name" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Mojito" FontFamily="Felix Titling" TextAlignment="Left" />
+                <Button x:Name="drink3Menu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="drink3Menu_Click"/>
+                <Button x:Name="drink3" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="drink3_Click">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\Mojito.jpg" Stretch="Fill"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <TextBlock x:Name="drink3Description" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
+                           Text="&#x2764; 19 &#x0a;&#x0a;&#x0a;Cocktail consisting of white rum, sugar cane juice, &#x0a;lime juice, soda water and mint. &#x0a;" 
+                           FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
+
+                
+                
+                <TextBlock x:Name="drink4Name" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Tequila Sunrise" FontFamily="Felix Titling" TextAlignment="Left" />
+                <Button x:Name="drink4Menu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="drink4Menu_Click"/>
+                <Button x:Name="drink4" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="drink4_Click">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\TSunrise.jpg" Stretch="Fill"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <TextBlock x:Name="drink4Description" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
+                           Text="&#x2764; 32 &#x0a;&#x0a;&#x0a;Cocktail made of tequila, orange juice, and&#x0a;grenadine syrup and served unmixed in a tall glass." 
+                           FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
+                
+                
+                
                 <TextBlock x:Name="drink2Name" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="White Russian" FontFamily="Felix Titling" TextAlignment="Left" />
-                <Button x:Name="drink2Menu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="drink1Menu_Click"/>
+                <Button x:Name="drink2Menu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="drink2Menu_Click"/>
                 <Button x:Name="drink2" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="drink2_Click">
                     <Button.Template>
                         <ControlTemplate>
-                            <Image Source="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\WRussian.jpg" Stretch="Fill"/>
+                            <Image Source="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\WRussian.jpg" Stretch="Fill"/>
                         </ControlTemplate>
                     </Button.Template>
                 </Button>
                 <TextBlock x:Name="drink2Description" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
                            Text="&#x2764; 26 &#x0a;&#x0a;&#x0a;Cocktail made with Vodka, Coffee Liqueur, and &#x0a;Cream or Milk served with Ice and usually in an &#x0a;Old Fashioned Glass." 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
+
+
+                
+
+                
+
+                
+                
+                
+
             </StackPanel>
         </ScrollViewer>
 

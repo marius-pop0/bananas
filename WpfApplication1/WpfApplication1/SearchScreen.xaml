@@ -36,25 +36,25 @@
         <Ellipse Stroke="#dcd0c0"
             StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="10,125,0,0">
             <Ellipse.Fill>
-                <ImageBrush ImageSource="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\bMargarita.jpg" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="/Images/bMargarita.jpg" Stretch="UniformToFill"/>
             </Ellipse.Fill>
         </Ellipse>
         <Ellipse Stroke="#dcd0c0"
             StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="10,311,0,0">
             <Ellipse.Fill>
-                <ImageBrush ImageSource="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\CataMargarita.jpg" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="/Images/CataMargarita.jpg" Stretch="UniformToFill"/>
             </Ellipse.Fill>
         </Ellipse>
         <Ellipse Stroke="#dcd0c0"
             StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="10,497,0,0">
             <Ellipse.Fill>
-                <ImageBrush ImageSource="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\CMargarita.jpg" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="/Images/CMargarita.jpg" Stretch="UniformToFill"/>
             </Ellipse.Fill>
         </Ellipse>
         <Ellipse Stroke="#dcd0c0"
             StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="10,683,0,0">
             <Ellipse.Fill>
-                <ImageBrush ImageSource="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\Mint.jpg" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="/Images/Mint.jpg" Stretch="UniformToFill"/>
             </Ellipse.Fill>
         </Ellipse>
         <TextBlock Foreground="#373737" Text="Blue Margarita" Margin="214,178,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="40" FontFamily="Felix Titling"/>
@@ -64,7 +64,7 @@
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="0,873,0,0" VerticalAlignment="Top" Width="742" Height="430" Grid.ColumnSpan="2" Grid.RowSpan="4">
             <Button.Template>
                 <ControlTemplate>
-                    <Image Source="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\Keyboard.jpg" Stretch="Fill"/>
+                    <Image Source="/Images/Keyboard.jpg" Stretch="Fill"/>
                 </ControlTemplate>
             </Button.Template>
         </Button>

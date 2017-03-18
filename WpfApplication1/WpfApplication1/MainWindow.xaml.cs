@@ -117,5 +117,40 @@ namespace WpfApplication1
         {
 
         }
+
+        private void drink2Menu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void drink3_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void drink3Menu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void drink4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void drink4Menu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void drink5_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void drink5Menu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

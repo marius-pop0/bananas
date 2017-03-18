@@ -25,7 +25,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\WRussian.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="/Images/WRussian.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -41,7 +41,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\TSunrise.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="/Images/TSunrise.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -57,7 +57,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\Mojito.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="/Images/Mojito.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -73,7 +73,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\CLibre.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="/Images/CLibre.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -89,7 +89,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\Margarita.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="/Images/Margarita.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -109,7 +109,7 @@
                 <Button x:Name="drink1" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="562.5" >
                     <Button.Template>
                         <ControlTemplate>
-                            <Image Source="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\Margarita.jpg" Stretch="Fill"/>
+                            <Image Source="/Images/Margarita.jpg" Stretch="Fill"/>
                         </ControlTemplate>
                     </Button.Template>
                 </Button>
@@ -121,7 +121,7 @@
                 <Button x:Name="drink2" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" >
                     <Button.Template>
                         <ControlTemplate>
-                            <Image Source="\\cs-fs01\Profiles\ug\mmpop\Desktop\Img\WRussian.jpg" Stretch="Fill"/>
+                            <Image Source="/Images/WRussian.jpg" Stretch="Fill"/>
                         </ControlTemplate>
                     </Button.Template>
                 </Button>
