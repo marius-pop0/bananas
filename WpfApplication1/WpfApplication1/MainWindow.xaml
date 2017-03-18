@@ -115,7 +115,7 @@
                     </Button.Template>
                 </Button>
                 <TextBlock x:Name="drink5Description" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
-                           Text="&#x2764; 37 &#x0a;&#x0a;&#x0a;A caffeinated alcoholic cocktail made of cola, lime,&#x0a;and dark or light rum" 
+                           Text="&#x2764; 37 &#x0a;&#x0a;&#x0a;A caffeinated alcoholic cocktail made of cola, lime,&#x0a;and white or dark rum" 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
                 
                 
@@ -145,7 +145,7 @@
                     </Button.Template>
                 </Button>
                 <TextBlock x:Name="drink3Description" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
-                           Text="&#x2764; 19 &#x0a;&#x0a;&#x0a;Cocktail consisting of white rum, sugar cane juice, &#x0a;lime juice, soda water and mint. &#x0a;" 
+                           Text="&#x2764; 19 &#x0a;&#x0a;&#x0a;Cocktail consisting of light rum, sugar cane juice, &#x0a;lime juice, soda water and mint. &#x0a;" 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
 
                 

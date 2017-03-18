@@ -115,7 +115,8 @@ namespace WpfApplication1
 
         private void drink2_Click(object sender, RoutedEventArgs e)
         {
-
+            DrinkProfile6 page1 = new DrinkProfile6();
+            this.Content = page1;
         }
 
         private void drink2Menu_Click(object sender, RoutedEventArgs e)
@@ -125,7 +126,8 @@ namespace WpfApplication1
 
         private void drink3_Click(object sender, RoutedEventArgs e)
         {
-
+            DrinkProfile4 page1 = new DrinkProfile4();
+            this.Content = page1;
         }
 
         private void drink3Menu_Click(object sender, RoutedEventArgs e)
@@ -135,7 +137,8 @@ namespace WpfApplication1
 
         private void drink4_Click(object sender, RoutedEventArgs e)
         {
-
+            DrinkProfile5 page1 = new DrinkProfile5();
+            this.Content = page1;
         }
 
         private void drink4Menu_Click(object sender, RoutedEventArgs e)
@@ -145,7 +148,8 @@ namespace WpfApplication1
 
         private void drink5_Click(object sender, RoutedEventArgs e)
         {
-
+            DrinkProfile3 page1 = new DrinkProfile3();
+            this.Content = page1;
         }
 
         private void drink5Menu_Click(object sender, RoutedEventArgs e)

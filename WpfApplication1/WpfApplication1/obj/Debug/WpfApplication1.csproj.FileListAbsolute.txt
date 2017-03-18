@@ -84,3 +84,11 @@ C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\obj\Debug\Sett
 C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
 C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
 C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\obj\Debug\DrinkProfile3.g.cs
+C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\obj\Debug\DrinkProfile3.baml
+C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\obj\Debug\DrinkProfile4.g.cs
+C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\obj\Debug\DrinkProfile4.baml
+C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\obj\Debug\DrinkProfile5.g.cs
+C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\obj\Debug\DrinkProfile5.baml
+C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\obj\Debug\DrinkProfile6.g.cs
+C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\obj\Debug\DrinkProfile6.baml

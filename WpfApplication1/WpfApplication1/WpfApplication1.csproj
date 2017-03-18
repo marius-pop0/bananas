@@ -55,6 +55,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DrinkProfile3.xaml.cs">
+      <DependentUpon>DrinkProfile3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DrinkProfile4.xaml.cs">
+      <DependentUpon>DrinkProfile4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DrinkProfile5.xaml.cs">
+      <DependentUpon>DrinkProfile5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DrinkProfile6.xaml.cs">
+      <DependentUpon>DrinkProfile6.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SearchScreen.xaml.cs">
       <DependentUpon>SearchScreen.xaml</DependentUpon>
     </Compile>
@@ -62,6 +74,22 @@
       <DependentUpon>SettingsMenu.xaml</DependentUpon>
     </Compile>
     <Page Include="DrinkProfile2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DrinkProfile3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DrinkProfile4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DrinkProfile5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DrinkProfile6.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
