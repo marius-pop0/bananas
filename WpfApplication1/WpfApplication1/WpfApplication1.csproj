@@ -55,17 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="DrinkProfile3.xaml.cs">
-      <DependentUpon>DrinkProfile3.xaml</DependentUpon>
+    <Compile Include="CubaLibreProfile.xaml.cs">
+      <DependentUpon>CubaLibreProfile.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DrinkProfile4.xaml.cs">
-      <DependentUpon>DrinkProfile4.xaml</DependentUpon>
+    <Compile Include="MargaritaProfile.xaml.cs">
+      <DependentUpon>MargaritaProfile.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DrinkProfile5.xaml.cs">
-      <DependentUpon>DrinkProfile5.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="DrinkProfile6.xaml.cs">
-      <DependentUpon>DrinkProfile6.xaml</DependentUpon>
+    <Compile Include="MojitoProfile.xaml.cs">
+      <DependentUpon>MojitoProfile.xaml</DependentUpon>
     </Compile>
     <Compile Include="SearchScreen.xaml.cs">
       <DependentUpon>SearchScreen.xaml</DependentUpon>
@@ -73,23 +70,13 @@
     <Compile Include="SettingsMenu.xaml.cs">
       <DependentUpon>SettingsMenu.xaml</DependentUpon>
     </Compile>
-    <Page Include="DrinkProfile2.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="DrinkProfile3.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="DrinkProfile4.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="DrinkProfile5.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="DrinkProfile6.xaml">
+    <Compile Include="TequilaSunriseProfile.xaml.cs">
+      <DependentUpon>TequilaSunriseProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WhiteRussianProfile.xaml.cs">
+      <DependentUpon>WhiteRussianProfile.xaml</DependentUpon>
+    </Compile>
+    <Page Include="CubaLibreProfile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -101,18 +88,31 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DrinkProfile2.xaml.cs">
-      <DependentUpon>DrinkProfile2.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MargaritaProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MojitoProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SearchScreen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SettingsMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TequilaSunriseProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WhiteRussianProfile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

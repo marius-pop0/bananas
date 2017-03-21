@@ -26,8 +26,6 @@ namespace WpfApplication1
             
         }
 
-        
-
         private void Settings_Click(object sender, RoutedEventArgs e)
         {
             SettingsMenu page1 = new SettingsMenu();
@@ -102,57 +100,58 @@ namespace WpfApplication1
 
         }
 
-        private void drink1_Click(object sender, RoutedEventArgs e)
+        private void cubaLibre_Click(object sender, RoutedEventArgs e)
         {
-            DrinkProfile2 page1 = new DrinkProfile2();
+            CubaLibreProfile page1 = new CubaLibreProfile();
             this.Content = page1;
         }
 
-        private void drink1Menu_Click(object sender, RoutedEventArgs e)
+        private void cubaLibreMenu_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void drink2_Click(object sender, RoutedEventArgs e)
+        private void margarita_Click(object sender, RoutedEventArgs e)
         {
-            DrinkProfile6 page1 = new DrinkProfile6();
+            MargaritaProfile page1 = new MargaritaProfile();
             this.Content = page1;
         }
 
-        private void drink2Menu_Click(object sender, RoutedEventArgs e)
+        private void margaritaMenu_Click(object sender, RoutedEventArgs e)
         {
+
 
         }
 
-        private void drink3_Click(object sender, RoutedEventArgs e)
+        private void mojito_Click(object sender, RoutedEventArgs e)
         {
-            DrinkProfile4 page1 = new DrinkProfile4();
+            MojitoProfile page1 = new MojitoProfile();
             this.Content = page1;
         }
 
-        private void drink3Menu_Click(object sender, RoutedEventArgs e)
+        private void mojitoMenu_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void drink4_Click(object sender, RoutedEventArgs e)
+        private void tequilaSunrise_Click(object sender, RoutedEventArgs e)
         {
-            DrinkProfile5 page1 = new DrinkProfile5();
+            TequilaSunriseProfile page1 = new TequilaSunriseProfile();
             this.Content = page1;
         }
 
-        private void drink4Menu_Click(object sender, RoutedEventArgs e)
+        private void tequilaSunriseMenu_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void drink5_Click(object sender, RoutedEventArgs e)
+        private void whiteRussian_Click(object sender, RoutedEventArgs e)
         {
-            DrinkProfile3 page1 = new DrinkProfile3();
+            WhiteRussianProfile page1 = new WhiteRussianProfile();
             this.Content = page1;
         }
 
-        private void drink5Menu_Click(object sender, RoutedEventArgs e)
+        private void whiteRussianMenu_Click(object sender, RoutedEventArgs e)
         {
 
         }
