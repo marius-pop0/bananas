@@ -32,40 +32,46 @@ namespace WpfApplication1
             this.Content = page1;
         }
 
-        private void vodkaCat_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void Search_Click(object sender, RoutedEventArgs e)
         {
             SearchScreen page2 = new SearchScreen();
             this.Content = page2;
         }
 
-        private void Fave1_Click(object sender, RoutedEventArgs e)
+        private void whiteRussianFave_Click(object sender, RoutedEventArgs e)
         {
-            
+            WhiteRussianProfile page1 = new WhiteRussianProfile();
+            this.Content = page1;
         }
     
-        private void Fave2_Click(object sender, RoutedEventArgs e)
+        private void tequilaSunriseFave_Click(object sender, RoutedEventArgs e)
+        {
+            TequilaSunriseProfile page1 = new TequilaSunriseProfile();
+            this.Content = page1;
+        }
+
+        private void mojitoFave_Click(object sender, RoutedEventArgs e)
+        {
+            MojitoProfile page1 = new MojitoProfile();
+            this.Content = page1;
+        }
+
+        private void cubaLibreFave_Click(object sender, RoutedEventArgs e)
+        {
+            CubaLibreProfile page1 = new CubaLibreProfile();
+            this.Content = page1;
+        }
+        private void margaritaFave_Click(object sender, RoutedEventArgs e)
+        {
+            MargaritaProfile page1 = new MargaritaProfile();
+            this.Content = page1;
+        }
+
+        private void vodkaCat_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void Fave3_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Fave4_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-        private void Fave5_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
         private void rumCat_Click(object sender, RoutedEventArgs e)
         {
 

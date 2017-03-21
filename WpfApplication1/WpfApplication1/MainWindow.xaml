@@ -19,7 +19,7 @@
         <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" PanningMode="HorizontalOnly" VerticalAlignment="Top" Height="212" Margin="0,119,0,0">
             <StackPanel Orientation="Horizontal">
 
-                <Button Name="Fave1" Click="Fave1_Click" Margin="10,5,0,0">
+                <Button Name="Fave1" Click="whiteRussianFave_Click" Margin="10,5,0,0">
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <Grid>
@@ -35,7 +35,7 @@
                     </Button.Template>
                 </Button>
 
-                <Button Name="Fave2" Click="Fave2_Click" Margin="10,5,0,0">
+                <Button Name="Fave2" Click="tequilaSunriseFave_Click" Margin="10,5,0,0">
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <Grid>
@@ -51,7 +51,7 @@
                     </Button.Template>
                 </Button>
 
-                <Button Name="Fave3" Click="Fave3_Click" Margin="10,5,0,0">
+                <Button Name="Fave3" Click="mojitoFave_Click" Margin="10,5,0,0">
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <Grid>
@@ -67,7 +67,7 @@
                     </Button.Template>
                 </Button>
 
-                <Button Name="Fave4" Click="Fave4_Click" Margin="10,5,0,0">
+                <Button Name="Fave4" Click="cubaLibreFave_Click" Margin="10,5,0,0">
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <Grid>
@@ -83,7 +83,7 @@
                     </Button.Template>
                 </Button>
 
-                <Button Name="Fave5" Click="Fave5_Click" Margin="10,5,0,0">
+                <Button Name="Fave5" Click="margaritaFave_Click" Margin="10,5,0,0">
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
                             <Grid>
