@@ -130,7 +130,7 @@
                     </Button.Template>
                 </Button>
                 <TextBlock x:Name="drink1Description" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
-                           Text="&#x2764; 17 &#x0a;&#x0a;Cocktail consisting of Triple Sec, Tequila and Lime &#x0a;or Lemon Juice, often served with Salt or Sugar on &#x0a;the rim of the glass." 
+                           Text="&#x2764; 23 &#x0a;&#x0a;Cocktail consisting of Triple Sec, Tequila and Lime &#x0a;or Lemon Juice, often served with Salt or Sugar on &#x0a;the rim of the glass." 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
 
                 

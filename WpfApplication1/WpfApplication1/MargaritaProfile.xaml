@@ -106,7 +106,6 @@
             <StackPanel Orientation="Vertical" Width="750">
                 <Rectangle  Fill="#F4F4F4" HorizontalAlignment="Left" Height="850" Margin="5,0,5,0" StrokeThickness="0" VerticalAlignment="Top" Width="726"/>
                 <Border HorizontalAlignment="Left" VerticalAlignment="Center" BorderBrush="Transparent" BorderThickness="0" Margin="80,-850,314,0"></Border>
-                    <!-- Hearts Go Here-->
                 <Ellipse Stroke="#dcd0c0"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="350" Height="350" Margin="20,-830,0,0">
                     <Ellipse.Fill>
@@ -116,6 +115,7 @@
 
                 <TextBlock Foreground="#373737" Text="Margarita" Margin="400,-800,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="48" FontFamily="Felix Titling"/>
                 <TextBlock Foreground="#373737" Text="-2oz Tequila&#x0a;-2oz Triple Sec&#x0a;-1oz Squeeze Lime Juice" Margin="420,-700,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
+                <TextBlock Foreground="#373737" Text="&#x2764; 23 &#x0a;&#x0a;&#x0a;" Margin="150,-440,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
                 <TextBlock Foreground="#373737" Text="1. Rim a Cocktail or Collins Glass with lime, dip into course &#x0a;    salt&#x0a;&#x0a;2. Shake all ingredients in a cocktail shaker with ice&#x0a;&#x0a;3. Fine strain into an ice filled glass&#x0a;&#x0a;4. Garnish with a lime slice or wedge" 
                            Margin="30,-360,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
 

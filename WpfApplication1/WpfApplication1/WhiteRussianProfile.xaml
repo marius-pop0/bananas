@@ -116,6 +116,7 @@
 
                 <TextBlock Foreground="#373737" Text="White Russian" Margin="400,-800,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="40" FontFamily="Felix Titling"/>
                 <TextBlock Foreground="#373737" Text="-2oz Vodka&#x0a;-1oz Kahlua&#x0a;-Half and half cream" Margin="420,-700,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
+                <TextBlock Foreground="#373737" Text="&#x2764; 26 &#x0a;&#x0a;&#x0a;" Margin="150,-440,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
                 <TextBlock Foreground="#373737" Text="1. Fill an old fashioned glass with ice&#x0a;&#x0a;2. Pour vodka and kahlua &#x0a;&#x0a;3. Fill with milk or cream" 
                            Margin="30,-360,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
 
