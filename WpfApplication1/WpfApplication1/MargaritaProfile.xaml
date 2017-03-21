@@ -26,7 +26,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\WRussian.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="/Images\WRussian.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -42,7 +42,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\TSunrise.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="/Images\TSunrise.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -58,7 +58,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\Mojito.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="/Images\Mojito.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -74,7 +74,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\CLibre.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="/Images\CLibre.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -90,7 +90,7 @@
                                 <Ellipse Stroke="#F4F4F4"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
                                     <Ellipse.Fill>
-                                        <ImageBrush ImageSource="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\Margarita.jpg" Stretch="UniformToFill"></ImageBrush>
+                                        <ImageBrush ImageSource="/Images\Margarita.jpg" Stretch="UniformToFill"></ImageBrush>
                                     </Ellipse.Fill>
                                 </Ellipse>
                                 <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -105,18 +105,12 @@
         <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" PanningMode="VerticalOnly" HorizontalAlignment="Left" Width="736" Margin="-1,330,0,50">
             <StackPanel Orientation="Vertical" Width="750">
                 <Rectangle  Fill="#F4F4F4" HorizontalAlignment="Left" Height="850" Margin="5,0,5,0" StrokeThickness="0" VerticalAlignment="Top" Width="726"/>
-                <Border HorizontalAlignment="Left" VerticalAlignment="Center" BorderBrush="Transparent" BorderThickness="0" Margin="80,-850,314,0">
-                    <StackPanel>
-                        <Grid x:Name="gdRating" Margin="10" MouseLeave="gdRating_MouseLeave">
-                            <WrapPanel x:Name="pnlMinus"/>
-                            <WrapPanel x:Name="pnlPlus"/>
-                        </Grid>
-                    </StackPanel>
-                </Border>
+                <Border HorizontalAlignment="Left" VerticalAlignment="Center" BorderBrush="Transparent" BorderThickness="0" Margin="80,-850,314,0"></Border>
+                    <!-- Hearts Go Here-->
                 <Ellipse Stroke="#dcd0c0"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="350" Height="350" Margin="20,-830,0,0">
                     <Ellipse.Fill>
-                        <ImageBrush ImageSource="C:\Users\Francisco Garcia\Desktop\WpfApplication1\WpfApplication1\Images\Margarita.jpg" Stretch="UniformToFill"></ImageBrush>
+                        <ImageBrush ImageSource="/Images\Margarita.jpg" Stretch="UniformToFill"></ImageBrush>
                     </Ellipse.Fill>
                 </Ellipse>
 
