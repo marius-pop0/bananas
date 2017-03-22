@@ -24,5 +24,40 @@ namespace WpfApplication1
         {
             InitializeComponent();
         }
+
+        private void BlueMargarita_Click(object sender, RoutedEventArgs e)
+        {
+            TequilaSunriseProfile profile = new TequilaSunriseProfile();
+            NavigationService.Navigate(profile);
+        }
+
+       
+
+        private void CataMargarita_Click(object sender, RoutedEventArgs e)
+        {
+            WhiteRussianProfile profile = new WhiteRussianProfile();
+            NavigationService.Navigate(profile);
+        }
+
+        private void Celtic_Click(object sender, RoutedEventArgs e)
+        {
+            CubaLibreProfile profile = new CubaLibreProfile();
+            NavigationService.Navigate(profile);
+        }
+
+       
+      
+
+        private void Mint_Click(object sender, RoutedEventArgs e)
+        {
+            MojitoProfile profile = new MojitoProfile();
+            NavigationService.Navigate(profile);
+        }
+
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            MainPage main = new MainPage();
+            NavigationService.Navigate(main);
+        }
     }
 }

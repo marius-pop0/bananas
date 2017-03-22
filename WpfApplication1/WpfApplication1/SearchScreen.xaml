@@ -24,43 +24,6 @@
         <Rectangle Fill="#F4F4F4" HorizontalAlignment="Left" Height="87" Margin="10,16,0,0" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="506"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Margarita|" FontFamily="FelixTitling" FontSize="20"  VerticalAlignment="Top" Margin="109,53,0,0" Height="33" Width="311"/>
         <Button x:Name="Search" FontFamily="Open Sans" Content="🔍" HorizontalAlignment="Left" Margin="23,30,0,0" VerticalAlignment="Top" Width="57" Height="56" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Cancel" FontFamily="FelixTitling" FontSize="20" VerticalAlignment="Top" Margin="655,53,0,0"/>
-
-
-        <Rectangle Fill="#DCD0C0" HorizontalAlignment="Left" Height="186" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="742" Margin="0,120,0,0" Grid.ColumnSpan="2"/>
-
-        <Rectangle Fill="#F4F4F4" HorizontalAlignment="Left" Height="186" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="742" Margin="0,306,0,0" Grid.ColumnSpan="2"/>
-        <Rectangle Fill="#DCD0C0" HorizontalAlignment="Left" Height="186" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="742" Margin="0,492,0,0" Grid.ColumnSpan="2"/>
-        <Rectangle Fill="#F4F4F4" HorizontalAlignment="Left" Height="195" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="742" Margin="0,678,0,0" Grid.ColumnSpan="2"/>
-
-        <Ellipse Stroke="#dcd0c0"
-            StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="10,125,0,0">
-            <Ellipse.Fill>
-                <ImageBrush ImageSource="/Images/bMargarita.jpg" Stretch="UniformToFill"/>
-            </Ellipse.Fill>
-        </Ellipse>
-        <Ellipse Stroke="#dcd0c0"
-            StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="10,311,0,0">
-            <Ellipse.Fill>
-                <ImageBrush ImageSource="/Images/CataMargarita.jpg" Stretch="UniformToFill"/>
-            </Ellipse.Fill>
-        </Ellipse>
-        <Ellipse Stroke="#dcd0c0"
-            StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="10,497,0,0">
-            <Ellipse.Fill>
-                <ImageBrush ImageSource="/Images/CMargarita.jpg" Stretch="UniformToFill"/>
-            </Ellipse.Fill>
-        </Ellipse>
-        <Ellipse Stroke="#dcd0c0"
-            StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="10,683,0,0">
-            <Ellipse.Fill>
-                <ImageBrush ImageSource="/Images/Mint.jpg" Stretch="UniformToFill"/>
-            </Ellipse.Fill>
-        </Ellipse>
-        <TextBlock Foreground="#373737" Text="Blue Margarita" Margin="214,178,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="40" FontFamily="Felix Titling"/>
-        <TextBlock Foreground="#373737" Text="Catalina Margarita" Margin="214,369,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="40" FontFamily="Felix Titling"/>
-        <TextBlock Foreground="#373737" Text="Celtic Margarita" Margin="214,551,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="40" FontFamily="Felix Titling"/>
-        <TextBlock Foreground="#373737" Text="Mint Margarita" Margin="214,737,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="40" FontFamily="Felix Titling"/>
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="0,873,0,0" VerticalAlignment="Top" Width="742" Height="430" Grid.ColumnSpan="2" Grid.RowSpan="4">
             <Button.Template>
                 <ControlTemplate>
@@ -68,6 +31,39 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
+        <Button x:Name="BlueMargarita" Background="#DCD0C0" Content="" Margin="0,120,0,0" VerticalAlignment="Top" Height="196" Click="BlueMargarita_Click" Grid.ColumnSpan="2"/>
+        <TextBlock Foreground="#373737" Text="Blue Margarita" Margin="214,189,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="40" FontFamily="Felix Titling"/>
+        <Ellipse Stroke="#dcd0c0"
+            StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="10,125,0,0">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="/Images/bMargarita.jpg" Stretch="UniformToFill"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Button x:Name="Catalina" Background="#F4F4F4" Content="" HorizontalAlignment="Left" Margin="0,316,0,0" VerticalAlignment="Top" Width="750" Height="176" Click="CataMargarita_Click" Grid.ColumnSpan="2"/>
+        <Ellipse Stroke="#dcd0c0"
+            StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="10,328,0,0">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="/Images/CataMargarita.jpg" Stretch="UniformToFill"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <TextBlock Foreground="#373737" Text="Catalina Margarita" Margin="214,384,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="40" FontFamily="Felix Titling"/>
+        <Button x:Name="Celtic" Background ="#DCD0C0" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="750" Margin="0,492,0,0" Height="186" Click="Celtic_Click" Grid.ColumnSpan="2"/>
+        <TextBlock Foreground="#373737" Text="Celtic Margarita" Margin="214,563,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="40" FontFamily="Felix Titling"/>
+        <Ellipse Stroke="#dcd0c0"
+            StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="10,514,0,0">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="/Images/CMargarita.jpg" Stretch="UniformToFill"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Button x:Name="button1_Copy" Background ="#F4F4F4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="750" Margin="0,678,0,0" Height="195" Grid.ColumnSpan="2" Click="Mint_Click"/>
+        <TextBlock Foreground="#373737" Text="Mint Margarita" Margin="214,747,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="40" FontFamily="Felix Titling"/>
+        <Ellipse Stroke="#dcd0c0"
+            StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="10,709,0,0">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="/Images/Mint.jpg" Stretch="UniformToFill"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Button x:Name="Cancel" Content="Cancel" Background="#F4F4F4" HorizontalAlignment="Left" Margin="620,42,0,0" VerticalAlignment="Top" Width="92" Height="48" Click="Cancel_Click"/>
 
 
 
