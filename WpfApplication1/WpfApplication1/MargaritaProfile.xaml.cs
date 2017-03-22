@@ -63,8 +63,7 @@ namespace WpfApplication1
         }
         private void margaritaFave_Click(object sender, RoutedEventArgs e)
         {
-            MargaritaProfile MGprofile = new MargaritaProfile();
-            NavigationService.Navigate(MGprofile);
+            
         }
 
         private void vodkaCat_Click(object sender, RoutedEventArgs e)

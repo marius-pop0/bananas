@@ -46,8 +46,7 @@ namespace WpfApplication1
 
         private void tequilaSunriseFave_Click(object sender, RoutedEventArgs e)
         {
-            TequilaSunriseProfile TSprofile = new TequilaSunriseProfile();
-            NavigationService.Navigate(TSprofile);
+            
         }
 
         private void mojitoFave_Click(object sender, RoutedEventArgs e)

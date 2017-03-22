@@ -52,8 +52,7 @@ namespace WpfApplication1
 
         private void mojitoFave_Click(object sender, RoutedEventArgs e)
         {
-            MojitoProfile MJprofile = new MojitoProfile();
-            NavigationService.Navigate(MJprofile);
+            
         }
 
         private void cubaLibreFave_Click(object sender, RoutedEventArgs e)

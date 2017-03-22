@@ -41,8 +41,7 @@ namespace WpfApplication1
 
         private void whiteRussianFave_Click(object sender, RoutedEventArgs e)
         {
-            WhiteRussianProfile WRprofile = new WhiteRussianProfile();
-            NavigationService.Navigate(WRprofile);
+            
         }
 
         private void tequilaSunriseFave_Click(object sender, RoutedEventArgs e)
