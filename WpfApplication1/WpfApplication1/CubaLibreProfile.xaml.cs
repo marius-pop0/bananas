@@ -33,8 +33,18 @@ namespace WpfApplication1
             this.NavigationService.GoBack();
         }
 
-        private void Search_Click(object sender, RoutedEventArgs e)
+        private void Fav_Click(object sender, RoutedEventArgs e)
         {
+            
+            if (Heart.Text == "❤ 37")
+            {
+                Heart.Text = "♥ 38";
+            }
+
+            else
+            {
+                Heart.Text = "❤ 37";
+            }
 
         }
 

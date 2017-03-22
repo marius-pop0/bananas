@@ -14,7 +14,7 @@
         <Rectangle Fill="#373737" HorizontalAlignment="Left" Height="964" Margin="-1,320,0,0" Stroke="Transparent" StrokeThickness="0" VerticalAlignment="Top" Width="752"/>
         <TextBlock x:Name="PageTitle" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="120,0,0,0" TextWrapping="NoWrap" Padding="30" FontSize="40" Text="Recipe" FontFamily="Felix Titling" TextAlignment="Center" Width="502"/>
         <Button x:Name="Settings" FontFamily="Arial Black" Content="&#8592;" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="120" Height="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="Back_Click"/>
-        <Button x:Name="Search" FontFamily="Open Sans" Content="&#x2764;" HorizontalAlignment="Left" Margin="621,0,0,0" VerticalAlignment="Top" Width="120" Height="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="Search_Click"/>
+        <Button x:Name="Search" FontFamily="Open Sans" Content="&#x2764;" HorizontalAlignment="Left" Margin="621,0,0,0" VerticalAlignment="Top" Width="120" Height="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="Fav_Click"/>
 
         <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" PanningMode="HorizontalOnly" VerticalAlignment="Top" Height="212" Margin="0,119,0,0">
             <StackPanel Orientation="Horizontal">
@@ -103,7 +103,7 @@
                 <TextBlock Foreground="#373737" Text="Cuba Libre" Margin="400,-800,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="48" FontFamily="Felix Titling"/>
                 <TextBlock Foreground="#373737" Text="-2oz White or Dark Rum&#x0a;-1oz Lime Juice&#x0a;-Cola&#x0a;-Lime" Margin="420,-700,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
 
-                <TextBlock Foreground="#373737" Text="&#x2764; 37" Margin="150,-440,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
+                <TextBlock Name="Heart" Foreground="#373737" Text="&#x2764; 37" Margin="150,-440,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
 
                 <TextBlock Foreground="#373737" Text="1. Put lime juice and a twist of lime into highball glass&#x0a; &#x0a;2. Add rum&#x0a;&#x0a;3. Top with ice&#x0a;&#x0a;4. Fill with cola" 
                            Margin="30,-360,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>

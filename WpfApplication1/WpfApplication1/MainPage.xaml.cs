@@ -42,16 +42,11 @@ namespace WpfApplication1
                 tAnimation.To = new Thickness(0, 0, 0, 0);
             }
             
-
-
-
             Storyboard.SetTarget(tAnimation, Content);
             Storyboard.SetTargetProperty(tAnimation, new PropertyPath(FrameworkElement.MarginProperty));
             Storyboard storyboard = new Storyboard();
             storyboard.Children.Add(tAnimation);
             storyboard.Begin(Content);
-            
-
             
         }
 
