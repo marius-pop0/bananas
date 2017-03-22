@@ -8,7 +8,8 @@
       d:DesignHeight="1334" d:DesignWidth="750"
       Title="MainPage">
 
-    <Grid>
+    <Grid x:Name="Content">
+        
         <Rectangle Fill="#F4F4F4" HorizontalAlignment="Left" Height="120" Margin="0,0,0,0" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="750"/>
         <Rectangle Fill="#DCD0C0" HorizontalAlignment="Left" Height="200" Margin="0,120,0,0" VerticalAlignment="Top" Width="750" Stroke="Transparent" StrokeThickness="0"/>
         <Rectangle Fill="#373737" HorizontalAlignment="Left" Height="964" Margin="-1,320,0,0" Stroke="Transparent" StrokeThickness="0" VerticalAlignment="Top" Width="752"/>
@@ -194,5 +195,16 @@
                 <Button x:Name="cognacCat" Content="COGNAC" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#F4F4F4" Height="49" Click="cognacCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
             </StackPanel>
         </ScrollViewer>
+        
+        <Rectangle Fill="#373737" HorizontalAlignment="Left" Height="1334" Margin="-500,2,0,-2" VerticalAlignment="Top" Width="496" Stroke="Black" StrokeThickness="0"/>
+        <TextBlock Background="#9B9B9B" x:Name="SettingTitle" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,0,0,0" TextWrapping="NoWrap" Padding="40" FontSize="40" Text="Settings" FontFamily="Felix Titling" TextAlignment="Center" Width="500"/>
+        <TextBlock Background="#DCD0C0" x:Name="Sorting" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120"  Margin="-500,120,0,0" TextWrapping="NoWrap" Padding="40" FontSize="40" Text="Toggle Sorting" FontFamily="Felix Titling" TextAlignment="Center" Width="500"/>
+        <TextBlock Background="#F4F4F4" x:Name="Favorite" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,240,0,0" TextWrapping="NoWrap" Padding="40" FontSize="40" Text="Favorite Recipes" FontFamily="Felix Titling" TextAlignment="Center" Width="500"/>
+        <TextBlock Background="#DCD0C0" x:Name="Cabinet" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,360,0,0" TextWrapping="NoWrap" Padding="40" FontSize="40" Text="Liquor Cabinet" FontFamily="Felix Titling" TextAlignment="Center" Width="500"/>
+        <TextBlock Background="#F4F4F4" x:Name="Tips" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,480,0,0" TextWrapping="NoWrap" Padding="40" FontSize="40" Text="Bartending Tips" FontFamily="Felix Titling" TextAlignment="Center" Width="500"/>
+        <TextBlock Background="#DCD0C0" x:Name="Random" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,600,0,0" TextWrapping="NoWrap" Padding="40" FontSize="40" Text="Random Drinks" FontFamily="Felix Titling" TextAlignment="Center" Width="500"/>
+        <TextBlock Background="#F4F4F4" x:Name="Suggestions" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,1005,0,0" TextWrapping="NoWrap" Padding="40" FontSize="40" Text="Tutorials" FontFamily="Felix Titling" TextAlignment="Center" Width="500"/>
+        <TextBlock Background="#DCD0C0" x:Name="Default" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,1125,0,0" TextWrapping="NoWrap" Padding="40" FontSize="40" Text="Restore Default" FontFamily="Felix Titling" TextAlignment="Center" Width="500"/>
+        <TextBlock Background="#9B9B9B" x:Name="Copyright" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Margin="-500,1245,0,0" TextWrapping="NoWrap" Padding="7" FontSize="26" Text="Copyright 2017 ***" FontFamily="Felix Titling" TextAlignment="Center" Width="500"/>
     </Grid>
 </Page>

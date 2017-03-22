@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Media.Animation;
 
 namespace WpfApplication1
 {
@@ -26,8 +27,32 @@ namespace WpfApplication1
         }
         private void Settings_Click(object sender, RoutedEventArgs e)
         {
-            SettingsMenu settings = new SettingsMenu();
-            NavigationService.Navigate(settings);
+
+
+            ThicknessAnimation tAnimation = new ThicknessAnimation();
+            tAnimation.Duration = new Duration(TimeSpan.FromSeconds(0.5));
+
+            string marginLeft = Content.Margin.Left.ToString();
+            if (marginLeft == "0") {
+                tAnimation.From = new Thickness(0, 0, 0, 0);
+                tAnimation.To = new Thickness(500, 0, 0, 0);
+            }
+            else{
+                tAnimation.From = new Thickness(500, 0, 0, 0);
+                tAnimation.To = new Thickness(0, 0, 0, 0);
+            }
+            
+
+
+
+            Storyboard.SetTarget(tAnimation, Content);
+            Storyboard.SetTargetProperty(tAnimation, new PropertyPath(FrameworkElement.MarginProperty));
+            Storyboard storyboard = new Storyboard();
+            storyboard.Children.Add(tAnimation);
+            storyboard.Begin(Content);
+            
+
+            
         }
 
         private void Search_Click(object sender, RoutedEventArgs e)
