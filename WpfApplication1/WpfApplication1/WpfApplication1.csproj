@@ -70,9 +70,6 @@
     <Compile Include="SearchScreen.xaml.cs">
       <DependentUpon>SearchScreen.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SettingsMenu.xaml.cs">
-      <DependentUpon>SettingsMenu.xaml</DependentUpon>
-    </Compile>
     <Compile Include="TequilaSunriseProfile.xaml.cs">
       <DependentUpon>TequilaSunriseProfile.xaml</DependentUpon>
     </Compile>
@@ -108,10 +105,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SearchScreen.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="SettingsMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

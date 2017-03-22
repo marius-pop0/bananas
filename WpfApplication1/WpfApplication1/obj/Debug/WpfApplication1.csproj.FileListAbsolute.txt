@@ -103,7 +103,6 @@ C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\ob
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\MargaritaProfile.g.cs
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\MojitoProfile.g.cs
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\SearchScreen.g.cs
-C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\SettingsMenu.g.cs
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\TequilaSunriseProfile.g.cs
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\WhiteRussianProfile.g.cs
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
@@ -114,7 +113,6 @@ C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\ob
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\MargaritaProfile.baml
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\MojitoProfile.baml
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\SearchScreen.baml
-C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\SettingsMenu.baml
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\TequilaSunriseProfile.baml
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\WhiteRussianProfile.baml
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
