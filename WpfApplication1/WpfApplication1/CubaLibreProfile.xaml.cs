@@ -40,31 +40,31 @@ namespace WpfApplication1
 
         private void whiteRussianFave_Click(object sender, RoutedEventArgs e)
         {
-            WhiteRussianProfile page1 = new WhiteRussianProfile();
-            this.Content = page1;
+            WhiteRussianProfile WRprofile = new WhiteRussianProfile();
+            NavigationService.Navigate(WRprofile);
         }
 
         private void tequilaSunriseFave_Click(object sender, RoutedEventArgs e)
         {
-            TequilaSunriseProfile page1 = new TequilaSunriseProfile();
-            this.Content = page1;
+            TequilaSunriseProfile TSprofile = new TequilaSunriseProfile();
+            NavigationService.Navigate(TSprofile);
         }
 
         private void mojitoFave_Click(object sender, RoutedEventArgs e)
         {
-            MojitoProfile page1 = new MojitoProfile();
-            this.Content = page1;
+            MojitoProfile MJprofile = new MojitoProfile();
+            NavigationService.Navigate(MJprofile);
         }
 
         private void cubaLibreFave_Click(object sender, RoutedEventArgs e)
         {
-            //CubaLibreProfile page1 = new CubaLibreProfile();
-            //this.Content = page1;
+            CubaLibreProfile CLprofile = new CubaLibreProfile();
+            NavigationService.Navigate(CLprofile);
         }
         private void margaritaFave_Click(object sender, RoutedEventArgs e)
         {
-            MargaritaProfile page1 = new MargaritaProfile();
-            this.Content = page1;
+            MargaritaProfile MGprofile = new MargaritaProfile();
+            NavigationService.Navigate(MGprofile);
         }
 
         private void vodkaCat_Click(object sender, RoutedEventArgs e)
