@@ -61,10 +61,6 @@ namespace WpfApplication1
             CubaLibreProfile CLprofile = new CubaLibreProfile();
             NavigationService.Navigate(CLprofile);
         }
-        private void margaritaFave_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
 
         private void vodkaCat_Click(object sender, RoutedEventArgs e)
         {

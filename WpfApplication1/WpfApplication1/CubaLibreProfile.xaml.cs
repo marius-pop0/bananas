@@ -56,10 +56,6 @@ namespace WpfApplication1
             NavigationService.Navigate(MJprofile);
         }
 
-        private void cubaLibreFave_Click(object sender, RoutedEventArgs e)
-        {
-            //dont do anything since we are already on the cuba libre page
-        }
         private void margaritaFave_Click(object sender, RoutedEventArgs e)
         {
             MargaritaProfile MGprofile = new MargaritaProfile();

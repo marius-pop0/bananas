@@ -44,11 +44,6 @@ namespace WpfApplication1
             NavigationService.Navigate(WRprofile);
         }
 
-        private void tequilaSunriseFave_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
         private void mojitoFave_Click(object sender, RoutedEventArgs e)
         {
             MojitoProfile MJprofile = new MojitoProfile();

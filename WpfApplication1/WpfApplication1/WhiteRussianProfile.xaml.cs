@@ -39,11 +39,6 @@ namespace WpfApplication1
 
         }
 
-        private void whiteRussianFave_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
         private void tequilaSunriseFave_Click(object sender, RoutedEventArgs e)
         {
             TequilaSunriseProfile TSprofile = new TequilaSunriseProfile();

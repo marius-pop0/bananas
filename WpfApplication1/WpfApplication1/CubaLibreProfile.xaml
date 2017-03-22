@@ -67,22 +67,6 @@
                     </Button.Template>
                 </Button>
 
-                <Button Name="Fave4" Click="cubaLibreFave_Click" Margin="10,5,0,0">
-                    <Button.Template>
-                        <ControlTemplate TargetType="Button">
-                            <Grid>
-                                <Ellipse Stroke="#F4F4F4"
-                         StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
-                                    <Ellipse.Fill>
-                                        <ImageBrush ImageSource="/Images\CLibre.jpg" Stretch="UniformToFill"></ImageBrush>
-                                    </Ellipse.Fill>
-                                </Ellipse>
-                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                            </Grid>
-                        </ControlTemplate>
-                    </Button.Template>
-                </Button>
-
                 <Button Name="Fave5" Click="margaritaFave_Click" Margin="10,5,0,0">
                     <Button.Template>
                         <ControlTemplate TargetType="Button">
@@ -119,7 +103,7 @@
                 <TextBlock Foreground="#373737" Text="Cuba Libre" Margin="400,-800,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="48" FontFamily="Felix Titling"/>
                 <TextBlock Foreground="#373737" Text="-2oz White or Dark Rum&#x0a;-1oz Lime Juice&#x0a;-Cola&#x0a;-Lime" Margin="420,-700,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
 
-                <TextBlock Foreground="#373737" Text="&#x2764; 37 &#x0a;&#x0a;&#x0a;" Margin="150,-440,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
+                <TextBlock Foreground="#373737" Text="&#x2764; 37" Margin="150,-440,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
 
                 <TextBlock Foreground="#373737" Text="1. Put lime juice and a twist of lime into highball glass&#x0a; &#x0a;2. Add rum&#x0a;&#x0a;3. Top with ice&#x0a;&#x0a;4. Fill with cola" 
                            Margin="30,-360,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>

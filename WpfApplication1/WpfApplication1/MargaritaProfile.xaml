@@ -83,22 +83,6 @@
                     </Button.Template>
                 </Button>
 
-                <Button Name="Fave5" Click="margaritaFave_Click" Margin="10,5,0,0">
-                    <Button.Template>
-                        <ControlTemplate TargetType="Button">
-                            <Grid>
-                                <Ellipse Stroke="#F4F4F4"
-                         StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
-                                    <Ellipse.Fill>
-                                        <ImageBrush ImageSource="/Images\Margarita.jpg" Stretch="UniformToFill"></ImageBrush>
-                                    </Ellipse.Fill>
-                                </Ellipse>
-                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                            </Grid>
-                        </ControlTemplate>
-                    </Button.Template>
-                </Button>
-
             </StackPanel>
         </ScrollViewer>
 

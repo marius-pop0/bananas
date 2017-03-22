@@ -50,11 +50,6 @@ namespace WpfApplication1
             NavigationService.Navigate(TSprofile);
         }
 
-        private void mojitoFave_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
         private void cubaLibreFave_Click(object sender, RoutedEventArgs e)
         {
             CubaLibreProfile CLprofile = new CubaLibreProfile();
