@@ -202,9 +202,9 @@
         <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" PanningMode="VerticalOnly" VerticalAlignment="Top" Height="212" Margin="-500,2,0,-2">
             <StackPanel Orientation="Vertical">
         -->      
-                <Rectangle Fill="#373737" HorizontalAlignment="Left" Height="1334" Margin="-500,2,0,-2" VerticalAlignment="Top" Width="496" Stroke="Black" StrokeThickness="0"/>  
-                <Button Background="#9B9B9B" x:Name="SettingTitle" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,0,0,0" Padding="40" FontSize="40" Content="Settings" FontFamily="Felix Titling" Width="500"/>
-                   <Button Background="#DCD0C0" x:Name="Sorting" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120"  Margin="-500,120,0,0" Padding="40" FontSize="40" Content="Toggle Sorting" FontFamily="Felix Titling" Width="500"/>
+                <Rectangle Fill="#373737" HorizontalAlignment="Left" Height="1334" Margin="-500,2,0,-2" VerticalAlignment="Top" Width="496" Stroke="Black" StrokeThickness="0"/>
+        <TextBlock Background="#9B9B9B" x:Name="SettingTitle" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,0,0,0" TextWrapping="NoWrap" Padding="40" FontSize="40" Text="Settings" FontFamily="Felix Titling" TextAlignment="Center" Width="500"/>
+        <Button Background="#DCD0C0" x:Name="Sorting" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120"  Margin="-500,120,0,0" Padding="40" FontSize="40" Content="Toggle Sorting" FontFamily="Felix Titling" Width="500"/>
                    <Button Background="#F4F4F4" x:Name="Favorite" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,240,0,0" Padding="40" FontSize="40" Content="Favorite Recipes" FontFamily="Felix Titling" Width="500"/>
                    <Button Background="#DCD0C0" x:Name="Cabinet" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,360,0,0" Padding="40" FontSize="40" Content="Liquor Cabinet" FontFamily="Felix Titling" Width="500"/>
                    <Button Background="#F4F4F4" x:Name="Tips" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,480,0,0" Padding="40" FontSize="40" Content="Bartending Tips" FontFamily="Felix Titling" Width="500"/>

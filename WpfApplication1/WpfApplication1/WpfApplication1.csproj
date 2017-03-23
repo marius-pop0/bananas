@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BlueMargaritaProfile.xaml.cs">
+      <DependentUpon>BlueMargaritaProfile.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CubaLibreProfile.xaml.cs">
       <DependentUpon>CubaLibreProfile.xaml</DependentUpon>
     </Compile>
@@ -76,6 +79,10 @@
     <Compile Include="WhiteRussianProfile.xaml.cs">
       <DependentUpon>WhiteRussianProfile.xaml</DependentUpon>
     </Compile>
+    <Page Include="BlueMargaritaProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CubaLibreProfile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
