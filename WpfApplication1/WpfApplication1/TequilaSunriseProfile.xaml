@@ -99,7 +99,7 @@
 
                 <TextBlock Foreground="#373737" Text="Tequila Sunrise" Margin="400,-800,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" FontFamily="Felix Titling"/>
                 <TextBlock Foreground="#373737" Text="-2oz Tequila&#x0a;-4oz Orange Juice&#x0a;-1oz Grenadine Syrup" Margin="420,-700,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
-                <TextBlock Foreground="#373737" Text="&#x2764; 32 &#x0a;&#x0a;&#x0a;" Margin="150,-440,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
+                <TextBlock Foreground="#373737" Text="&#x2665; 32 &#x0a;&#x0a;&#x0a;" Margin="150,-440,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
                 <TextBlock Foreground="#373737" Text="1. Pour tequila and orange juice into ice filled high ball glass&#x0a;&#x0a;2.Pour in grenading slowly and allow to settle&#x0a;&#x0a;3. Stir to complete the drink" 
                            Margin="30,-360,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
 

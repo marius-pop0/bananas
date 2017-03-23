@@ -116,7 +116,7 @@
                     </Button.Template>
                 </Button>
                 <TextBlock x:Name="drink5Description" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
-                           Text="&#x2764; 37 &#x0a;&#x0a;&#x0a;A caffeinated alcoholic cocktail made of cola, lime,&#x0a;and white or dark rum" 
+                           Text="&#x2665; 37 &#x0a;&#x0a;&#x0a;A caffeinated alcoholic cocktail made of cola, lime,&#x0a;and white or dark rum" 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
 
 
@@ -131,7 +131,7 @@
                     </Button.Template>
                 </Button>
                 <TextBlock x:Name="drink1Description" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
-                           Text="&#x2764; 17 &#x0a;&#x0a;Cocktail consisting of Triple Sec, Tequila and Lime &#x0a;or Lemon Juice, often served with Salt or Sugar on &#x0a;the rim of the glass." 
+                           Text="&#x2665; 17 &#x0a;&#x0a;Cocktail consisting of Triple Sec, Tequila and Lime &#x0a;or Lemon Juice, often served with Salt or Sugar on &#x0a;the rim of the glass." 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
 
 
@@ -146,7 +146,7 @@
                     </Button.Template>
                 </Button>
                 <TextBlock x:Name="drink3Description" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
-                           Text="&#x2764; 19 &#x0a;&#x0a;&#x0a;Cocktail consisting of light rum, sugar cane juice, &#x0a;lime juice, soda water and mint. &#x0a;" 
+                           Text="&#x2665; 19 &#x0a;&#x0a;&#x0a;Cocktail consisting of light rum, sugar cane juice, &#x0a;lime juice, soda water and mint. &#x0a;" 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
 
 
@@ -161,7 +161,7 @@
                     </Button.Template>
                 </Button>
                 <TextBlock x:Name="drink4Description" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
-                           Text="&#x2764; 32 &#x0a;&#x0a;&#x0a;Cocktail made of tequila, orange juice, and&#x0a;grenadine syrup and served unmixed in a tall glass." 
+                           Text="&#x2665; 32 &#x0a;&#x0a;&#x0a;Cocktail made of tequila, orange juice, and&#x0a;grenadine syrup and served unmixed in a tall glass." 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
 
 
@@ -176,7 +176,7 @@
                     </Button.Template>
                 </Button>
                 <TextBlock x:Name="drink2Description" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
-                           Text="&#x2764; 26 &#x0a;&#x0a;&#x0a;Cocktail made with Vodka, Coffee Liqueur, and &#x0a;Cream or Milk served with Ice and usually in an &#x0a;Old Fashioned Glass." 
+                           Text="&#x2665; 26 &#x0a;&#x0a;&#x0a;Cocktail made with Vodka, Coffee Liqueur, and &#x0a;Cream or Milk served with Ice and usually in an &#x0a;Old Fashioned Glass." 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
 
 
