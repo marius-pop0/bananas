@@ -31,8 +31,6 @@ namespace WpfApplication1
             NavigationService.Navigate(profile);
         }
 
-       
-
         private void CataMargarita_Click(object sender, RoutedEventArgs e)
         {
             BlueMargaritaProfile profile = new BlueMargaritaProfile();
@@ -41,17 +39,12 @@ namespace WpfApplication1
 
         private void Celtic_Click(object sender, RoutedEventArgs e)
         {
-            CubaLibreProfile profile = new CubaLibreProfile();
-            NavigationService.Navigate(profile);
+            
         }
-
-       
-      
 
         private void Mint_Click(object sender, RoutedEventArgs e)
         {
-            MojitoProfile profile = new MojitoProfile();
-            NavigationService.Navigate(profile);
+            
         }
 
         private void Cancel_Click(object sender, RoutedEventArgs e)
