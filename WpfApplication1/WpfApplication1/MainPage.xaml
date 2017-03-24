@@ -204,11 +204,11 @@
         -->      
                 <Rectangle Fill="#373737" HorizontalAlignment="Left" Height="1334" Margin="-500,2,0,-2" VerticalAlignment="Top" Width="496" Stroke="Black" StrokeThickness="0"/>
                     <TextBlock Background="#9B9B9B" x:Name="SettingTitle" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,0,0,0" TextWrapping="NoWrap" Padding="40" FontSize="40" Text="Settings" FontFamily="Felix Titling" TextAlignment="Center" Width="500"/>
-                    <Button Background="#DCD0C0" x:Name="Tutorials" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120"  Margin="-500,120,0,0" Padding="40" FontSize="40" Content="Tutorials" FontFamily="Felix Titling" Width="500"/>
+        <Button Background="#DCD0C0" x:Name="Sorting" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120"  Margin="-500,120,0,0" Padding="40" FontSize="40" Content="Toggle Sorting" FontFamily="Felix Titling" Width="500"/>
                    <Button Background="#F4F4F4" x:Name="Favorite" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,240,0,0" Padding="40" FontSize="40" Content="Favorite Recipes" FontFamily="Felix Titling" Width="500"/>
                    <Button Background="#DCD0C0" x:Name="Cabinet" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,360,0,0" Padding="40" FontSize="40" Content="Liquor Cabinet" FontFamily="Felix Titling" Width="500"/>
                     <Button Background="#F4F4F4" x:Name="Random" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,480,0,0" Padding="40" FontSize="40" Content="Random Drinks" FontFamily="Felix Titling" Width="500"/>
-                    <Button Background="#DCD0C0" x:Name="Sorting" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,600,0,0" Padding="40" FontSize="40" Content="Toggle Sorting" FontFamily="Felix Titling" Width="500"/>
+                    <Button Background="#DCD0C0" x:Name="Tutorials" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,600,0,0" Padding="40" FontSize="40" Content="Tutorials" FontFamily="Felix Titling" Width="500"/>
                    <TextBlock Background="#9B9B9B" x:Name="Copyright" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Margin="-500,1285,0,0" Padding="7" FontSize="26" Text="Copyright 2017 ***" FontFamily="Felix Titling" Width="500"/>
 
         <!--       
