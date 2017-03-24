@@ -52,8 +52,8 @@ namespace WpfApplication1
 
         private void Search_Click(object sender, RoutedEventArgs e)
         {
-            SearchScreen search = new SearchScreen();
-            NavigationService.Navigate(search);
+            Page1 emptySearch = new Page1();
+            NavigationService.Navigate(emptySearch);
         }
 
         private void whiteRussianFave_Click(object sender, RoutedEventArgs e)

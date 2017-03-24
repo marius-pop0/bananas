@@ -25,9 +25,9 @@ namespace WpfApplication1
             InitializeComponent();
         }
 
-        private void BlueMargarita_Click(object sender, RoutedEventArgs e)
+        private void Margarita_Click(object sender, RoutedEventArgs e)
         {
-            TequilaSunriseProfile profile = new TequilaSunriseProfile();
+            MargaritaProfile profile = new MargaritaProfile();
             NavigationService.Navigate(profile);
         }
 

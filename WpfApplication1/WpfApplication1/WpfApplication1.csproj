@@ -70,6 +70,9 @@
     <Compile Include="MojitoProfile.xaml.cs">
       <DependentUpon>MojitoProfile.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EmptySearch.xaml.cs">
+      <DependentUpon>EmptySearch.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SearchScreen.xaml.cs">
       <DependentUpon>SearchScreen.xaml</DependentUpon>
     </Compile>
@@ -108,6 +111,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MojitoProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EmptySearch.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
