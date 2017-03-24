@@ -35,7 +35,7 @@ namespace WpfApplication1
 
         private void CataMargarita_Click(object sender, RoutedEventArgs e)
         {
-            WhiteRussianProfile profile = new WhiteRussianProfile();
+            BlueMargaritaProfile profile = new BlueMargaritaProfile();
             NavigationService.Navigate(profile);
         }
 

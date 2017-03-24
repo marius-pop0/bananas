@@ -212,3 +212,5 @@ C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\ob
 \\cs-fs01\Profiles\ug\chintav.shah\Desktop\bananas-master\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb
 \\cs-fs01\Profiles\ug\chintav.shah\Desktop\bananas-master\WpfApplication1\WpfApplication1\obj\Debug\EmptySearch.g.cs
 \\cs-fs01\Profiles\ug\chintav.shah\Desktop\bananas-master\WpfApplication1\WpfApplication1\obj\Debug\EmptySearch.baml
+C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\EmptySearch.g.cs
+C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\EmptySearch.baml
