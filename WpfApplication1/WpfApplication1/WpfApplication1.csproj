@@ -73,6 +73,9 @@
     <Compile Include="MargaritaProfile.xaml.cs">
       <DependentUpon>MargaritaProfile.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MintMargaritaProfile.xaml.cs">
+      <DependentUpon>MintMargaritaProfile.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MojitoProfile.xaml.cs">
       <DependentUpon>MojitoProfile.xaml</DependentUpon>
     </Compile>
@@ -121,6 +124,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MargaritaProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MintMargaritaProfile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
