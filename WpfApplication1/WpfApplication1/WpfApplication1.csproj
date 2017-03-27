@@ -58,14 +58,14 @@
     <Compile Include="BlueMargaritaProfile.xaml.cs">
       <DependentUpon>BlueMargaritaProfile.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CatalinaMargaritaProfile.xaml.cs">
-      <DependentUpon>CatalinaMargaritaProfile.xaml</DependentUpon>
-    </Compile>
     <Compile Include="CubaLibreProfile.xaml.cs">
       <DependentUpon>CubaLibreProfile.xaml</DependentUpon>
     </Compile>
     <Compile Include="FavoriteRecipes.xaml.cs">
       <DependentUpon>FavoriteRecipes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GrapeMargaritaProfile.xaml.cs">
+      <DependentUpon>GrapeMargaritaProfile.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -95,15 +95,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="CatalinaMargaritaProfile.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="CubaLibreProfile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="FavoriteRecipes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GrapeMargaritaProfile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -181,16 +181,16 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\bMargarita.jpg" />
-    <Resource Include="Images\bMargarita.png" />
-    <Resource Include="Images\CataMargarita.jpg" />
     <Resource Include="Images\CLibre.jpg" />
-    <Resource Include="Images\CMargarita.jpg" />
     <Resource Include="Images\Keyboard.jpg" />
     <Resource Include="Images\Margarita.jpg" />
     <Resource Include="Images\Mint.jpg" />
     <Resource Include="Images\Mojito.jpg" />
     <Resource Include="Images\TSunrise.jpg" />
     <Resource Include="Images\WRussian.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\GMargarita.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

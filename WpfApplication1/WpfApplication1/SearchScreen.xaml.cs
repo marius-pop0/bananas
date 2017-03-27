@@ -37,9 +37,9 @@ namespace WpfApplication1
             NavigationService.Navigate(profile);
         }
 
-        private void Catalina_Click(object sender, RoutedEventArgs e)
+        private void Grape_Click(object sender, RoutedEventArgs e)
         {
-            CatalinaMargaritaProfile profile = new CatalinaMargaritaProfile();
+            GrapeMargaritaProfile profile = new GrapeMargaritaProfile();
             NavigationService.Navigate(profile);
         }
 

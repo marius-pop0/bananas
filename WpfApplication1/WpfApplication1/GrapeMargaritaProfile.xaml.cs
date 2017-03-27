@@ -18,12 +18,12 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for DrinkProfile2.xaml
     /// </summary>
-    public partial class CatalinaMargaritaProfile : Page
+    public partial class GrapeMargaritaProfile : Page
     {
         int intRate = 0;
         int intCount = 1;
         int Rate = 0;
-        public CatalinaMargaritaProfile()
+        public GrapeMargaritaProfile()
         {
             InitializeComponent();
         }
@@ -35,7 +35,6 @@ namespace WpfApplication1
 
         private void Fav_Click(object sender, RoutedEventArgs e)
         {
-
 
         }
 

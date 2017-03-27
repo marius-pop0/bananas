@@ -216,7 +216,7 @@ C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\ob
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\EmptySearch.baml
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\FavoriteRecipes.g.cs
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\FavoriteRecipes.baml
-C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\CatalinaMargaritaProfile.g.cs
-C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\CatalinaMargaritaProfile.baml
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\MintMargaritaProfile.g.cs
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\MintMargaritaProfile.baml
+C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\GrapeMargaritaProfile.g.cs
+C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\GrapeMargaritaProfile.baml

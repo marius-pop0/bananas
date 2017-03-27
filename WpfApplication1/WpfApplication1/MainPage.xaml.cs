@@ -146,6 +146,17 @@ namespace WpfApplication1
 
         }
 
+        private void grapeMargaritaButton_Click(object sender, RoutedEventArgs e)
+        {
+            GrapeMargaritaProfile GMprofile = new GrapeMargaritaProfile();
+            NavigationService.Navigate(GMprofile);
+        }
+
+        private void grapeMargaritaMenu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void margarita_Click(object sender, RoutedEventArgs e)
         {
             MargaritaProfile MGprofile = new MargaritaProfile();
@@ -214,6 +225,5 @@ namespace WpfApplication1
             NavigationService.Navigate(favoriteRecipes);
         }
 
-        
     }
 }

@@ -35,12 +35,12 @@
                 </Ellipse>
                 <TextBlock Foreground="#373737" Text="Blue Margarita" Margin="280,-110,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="40" FontFamily="Felix Titling"/>
                 <TextBlock Foreground="#373737" Text="Catalina Margarita" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="40" FontFamily="Felix Titling"/>
-                <Button x:Name="button1_Copy" Background ="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="750" Margin="0,-48,0,0" Height="195" Grid.ColumnSpan="2" Click="Catalina_Click">
-                    <TextBlock x:Name="Celtic" TextWrapping="Wrap" Text="Catalina Margarita" FontSize="40" FontFamily="Felix Titling" Margin="200,0,0,0"/>
+                <Button x:Name="button1_Copy" Background ="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="750" Margin="0,-48,0,0" Height="195" Grid.ColumnSpan="2" Click="Grape_Click">
+                    <TextBlock x:Name="Grapefruit" TextWrapping="Wrap" Text="Grapefruit Margarita" FontSize="40" FontFamily="Felix Titling" Margin="200,0,0,0"/>
                 </Button>
                 <Ellipse Stroke="#dcd0c0" StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="60,-169,0,0">
                     <Ellipse.Fill>
-                        <ImageBrush ImageSource="/Images/CataMargarita.jpg" Stretch="UniformToFill"/>
+                        <ImageBrush ImageSource="/Images/GMargarita.jpg" Stretch="UniformToFill"/>
                     </Ellipse.Fill>
                 </Ellipse>
                 <TextBlock Foreground="#373737" Text="Mint Margarita" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="40" FontFamily="Felix Titling"/>

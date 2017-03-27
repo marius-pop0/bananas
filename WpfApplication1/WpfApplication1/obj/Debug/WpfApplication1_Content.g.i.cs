@@ -8,18 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/bmargarita.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/bmargarita.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/catamargarita.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/clibre.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/cmargarita.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/emptystar.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/fullstar.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/keyboard.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/margarita.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/mint.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/mojito.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/tsunrise.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/wrussian.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/gmargarita.jpg")]
 
 

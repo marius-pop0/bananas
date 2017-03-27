@@ -1,4 +1,4 @@
-﻿<Page x:Class="WpfApplication1.CatalinaMargaritaProfile"
+﻿<Page x:Class="WpfApplication1.GrapeMargaritaProfile"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:WpfApplication1"
       mc:Ignorable="d" 
       d:DesignHeight="1334" d:DesignWidth="750"
-      Title="CatalinaMargaritaProfile">
+      Title="GrapeMargaritaProfile">
 
     <Grid>
         <Rectangle Fill="#F4F4F4" HorizontalAlignment="Left" Height="120" Margin="0,0,0,0" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="750"/>
@@ -109,14 +109,14 @@
                 <Ellipse Stroke="#dcd0c0"
                          StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="350" Height="350" Margin="20,-830,0,0">
                     <Ellipse.Fill>
-                        <ImageBrush ImageSource="/Images\CataMargarita.jpg" Stretch="UniformToFill"></ImageBrush>
+                        <ImageBrush ImageSource="/Images\GMargarita.jpg" Stretch="UniformToFill"></ImageBrush>
                     </Ellipse.Fill>
                 </Ellipse>
 
-                <TextBlock Foreground="#373737" Text="Catalina Margarita" Margin="350,-800,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="32" FontFamily="Felix Titling"/>
-                <TextBlock Foreground="#373737" Text="-2oz Tequila&#x0a;-1oz Blue Curacao&#x0a;-1oz Peach Schnapps&#x0a;-4oz Sweet and Sour Mix" Margin="420,-700,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
+                <TextBlock Foreground="#373737" Text="Grapefruit Margarita" Margin="350,-800,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Felix Titling"/>
+                <TextBlock Foreground="#373737" Text="-3oz Tequila&#x0a;-2oz Orange Juice&#x0a;-2 Lime Juice&#x0a;-6oz Grapefruit Juice&#x0a;-Simple Syrup&#x0a;-Salt, for Rim&#x0a;-Grapefruit Wedge" Margin="420,-700,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
                 <TextBlock Name="Heart" Foreground="#373737" Text="&#x2764; 28 &#x0a;&#x0a;&#x0a;" Margin="150,-440,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
-                <TextBlock Foreground="#373737" Text="1. Fill a cocktail shaker with cracked ice &#x0a;&#x0a;2. Pour all the ingredients into the glass&#x0a;&#x0a;3. Give drink a good shake&#x0a;&#x0a;4. Strain the mixture into a chilled margarita glass" 
+                <TextBlock Foreground="#373737" Text="1. Mix tequila, orange juice, lime juice, grapefruit juice&#x0a;   and syrup &#x0a;&#x0a;2. Rub one of the used grapefruit wedges around the rim&#x0a;    and dip in salt&#x0a;&#x0a;3. FIll glass with ice and pour Margarita&#x0a;&#x0a;" 
                            Margin="30,-360,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
 
             </StackPanel>
