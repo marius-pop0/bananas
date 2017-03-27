@@ -115,7 +115,7 @@
 
                 <TextBlock Foreground="#373737" Text="Catalina Margarita" Margin="350,-800,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="32" FontFamily="Felix Titling"/>
                 <TextBlock Foreground="#373737" Text="-2oz Tequila&#x0a;-1oz Blue Curacao&#x0a;-1oz Peach Schnapps&#x0a;-4oz Sweet and Sour Mix" Margin="420,-700,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
-                <TextBlock Name="Heart" Foreground="#373737" Text="&#x2764; 8 &#x0a;&#x0a;&#x0a;" Margin="150,-440,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
+                <TextBlock Name="Heart" Foreground="#373737" Text="&#x2764; 28 &#x0a;&#x0a;&#x0a;" Margin="150,-440,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
                 <TextBlock Foreground="#373737" Text="1. Fill a cocktail shaker with cracked ice &#x0a;&#x0a;2. Pour all the ingredients into the glass&#x0a;&#x0a;3. Give drink a good shake&#x0a;&#x0a;4. Strain the mixture into a chilled margarita glass" 
                            Margin="30,-360,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
 

@@ -116,7 +116,7 @@
                 <TextBlock Foreground="#373737" Text="Mint Margarita" Margin="400,-800,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" FontFamily="Felix Titling"/>
                 <TextBlock Foreground="#373737" Text="-4oz Water&#x0a;-5 Spring Mint&#x0a;-2oz Lemon Juice&#x0a;-8oz Sprite" Margin="420,-700,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
                 <TextBlock Name="Heart" Foreground="#373737" Text="&#x2764; 15 &#x0a;&#x0a;&#x0a;" Margin="150,-440,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
-                <TextBlock Foreground="#373737" Text="1. Fill a cocktail shaker with cracked ice &#x0a;&#x0a;2. Pour all the ingredients into the glass&#x0a;&#x0a;3. Give drink a good shake&#x0a;&#x0a;4. Strain the mixture into a chilled margarita glass" 
+                <TextBlock Foreground="#373737" Text="1. Pour ingredients into a cocktail glass &#x0a;&#x0a;2. Fill the glass with ice&#x0a;&#x0a;3. Give the drink a good stir" 
                            Margin="30,-360,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="28" FontFamily="Footlight MT Light"/>
 
             </StackPanel>
