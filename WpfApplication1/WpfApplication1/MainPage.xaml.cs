@@ -124,6 +124,17 @@ namespace WpfApplication1
 
         }
 
+        private void blueMargaritaButton_Click(object sender, RoutedEventArgs e)
+        {
+            BlueMargaritaProfile BMprofile = new BlueMargaritaProfile();
+            NavigationService.Navigate(BMprofile);
+        }
+
+        private void blueMargaritaMenu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void cubaLibre_Click(object sender, RoutedEventArgs e)
         {
             CubaLibreProfile CLprofile = new CubaLibreProfile();
@@ -144,6 +155,17 @@ namespace WpfApplication1
         private void margaritaMenu_Click(object sender, RoutedEventArgs e)
         {
 
+
+        }
+
+        private void mintMargaritaButton_Click(object sender, RoutedEventArgs e)
+        {
+            MintMargaritaProfile Mintprofile = new MintMargaritaProfile();
+            NavigationService.Navigate(Mintprofile);
+        }
+
+        private void mintMargaritaMenu_Click(object sender, RoutedEventArgs e)
+        {
 
         }
 
@@ -191,5 +213,7 @@ namespace WpfApplication1
             FavoriteRecipes favoriteRecipes = new FavoriteRecipes();
             NavigationService.Navigate(favoriteRecipes);
         }
+
+        
     }
 }

@@ -106,6 +106,19 @@
         <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" PanningMode="VerticalOnly" HorizontalAlignment="Left" Width="736" Margin="0,330,-1,50">
             <StackPanel Orientation="Vertical" Width="749">
 
+                <TextBlock x:Name="blueMargarita" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Blue Margarita" FontFamily="Felix Titling" TextAlignment="Left" />
+                <Button x:Name="blueMargaritaMenu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="blueMargaritaMenu_Click"/>
+                <Button x:Name="blueMargaritaButton" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="blueMargaritaButton_Click">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="/Images\BMargarita.jpg" Stretch="Fill"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <TextBlock x:Name="blueMargaritaDescription" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
+                           Text="&#x2764; 20 &#x0a;&#x0a;&#x0a;A tequila based drink containing blue curacao in&#x0a;addition to lime juice" 
+                           FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
+              
                 <TextBlock x:Name="drink5Name" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Cuba Libre" FontFamily="Felix Titling" TextAlignment="Left" />
                 <Button x:Name="drink5Menu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="cubaLibreMenu_Click"/>
                 <Button x:Name="drink5" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="cubaLibre_Click">
@@ -134,7 +147,18 @@
                            Text="&#x2665; 17 &#x0a;&#x0a;Cocktail consisting of Triple Sec, Tequila and Lime &#x0a;or Lemon Juice, often served with Salt or Sugar on &#x0a;the rim of the glass." 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
 
-
+                <TextBlock x:Name="mintMargarita" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Mint Margarita" FontFamily="Felix Titling" TextAlignment="Left" />
+                <Button x:Name="mintMargaritaMenu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="mintMargaritaMenu_Click"/>
+                <Button x:Name="mintMargaritaButton" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="mintMargaritaButton_Click">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Image Source="/Images\Mint.jpg" Stretch="Fill"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <TextBlock x:Name="mintMargaritaDescription" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
+                           Text="&#x2764; 15 &#x0a;&#x0a;&#x0a;A tequila cocktail mixed with Spring Mint, Sprite&#x0a;and Lime Juice" 
+                           FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
 
                 <TextBlock x:Name="drink3Name" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Mojito" FontFamily="Felix Titling" TextAlignment="Left" />
                 <Button x:Name="drink3Menu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="mojito_Click"/>
