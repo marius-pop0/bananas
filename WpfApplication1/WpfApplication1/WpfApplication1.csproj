@@ -61,6 +61,9 @@
     <Compile Include="CubaLibreProfile.xaml.cs">
       <DependentUpon>CubaLibreProfile.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FavoriteRecipes.xaml.cs">
+      <DependentUpon>FavoriteRecipes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -87,6 +90,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CubaLibreProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FavoriteRecipes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

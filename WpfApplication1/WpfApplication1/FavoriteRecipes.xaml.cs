@@ -19,35 +19,16 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for MainPage.xaml
     /// </summary>
-    public partial class MainPage : Page
+    public partial class FavoriteRecipes : Page
     {
-        public MainPage()
+        public FavoriteRecipes()
         {
             InitializeComponent();
         }
-        private void Settings_Click(object sender, RoutedEventArgs e)
+
+        private void Back_Click(object sender, RoutedEventArgs e)
         {
-
-
-            ThicknessAnimation tAnimation = new ThicknessAnimation();
-            tAnimation.Duration = new Duration(TimeSpan.FromSeconds(0.5));
-
-            string marginLeft = Content.Margin.Left.ToString();
-            if (marginLeft == "0") {
-                tAnimation.From = new Thickness(0, 0, 0, 0);
-                tAnimation.To = new Thickness(500, 0, 0, 0);
-            }
-            else{
-                tAnimation.From = new Thickness(500, 0, 0, 0);
-                tAnimation.To = new Thickness(0, 0, 0, 0);
-            }
-            
-            Storyboard.SetTarget(tAnimation, Content);
-            Storyboard.SetTargetProperty(tAnimation, new PropertyPath(FrameworkElement.MarginProperty));
-            Storyboard storyboard = new Storyboard();
-            storyboard.Children.Add(tAnimation);
-            storyboard.Begin(Content);
-            
+            this.NavigationService.GoBack();
         }
 
         private void Search_Click(object sender, RoutedEventArgs e)
@@ -184,12 +165,6 @@ namespace WpfApplication1
         {
             WhiteRussianProfile WRprofile = new WhiteRussianProfile();
             NavigationService.Navigate(WRprofile);
-        }
-
-        private void Favorite_Click(object sender, RoutedEventArgs e)
-        {
-            FavoriteRecipes favoriteRecipes = new FavoriteRecipes();
-            NavigationService.Navigate(favoriteRecipes);
         }
     }
 }
