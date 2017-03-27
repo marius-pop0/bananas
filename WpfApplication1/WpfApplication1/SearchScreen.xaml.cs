@@ -31,20 +31,22 @@ namespace WpfApplication1
             NavigationService.Navigate(profile);
         }
 
-        private void CataMargarita_Click(object sender, RoutedEventArgs e)
+        private void BlueMargarita_Click(object sender, RoutedEventArgs e)
         {
             BlueMargaritaProfile profile = new BlueMargaritaProfile();
             NavigationService.Navigate(profile);
         }
 
-        private void Celtic_Click(object sender, RoutedEventArgs e)
+        private void Catalina_Click(object sender, RoutedEventArgs e)
         {
-            
+            CatalinaMargaritaProfile profile = new CatalinaMargaritaProfile();
+            NavigationService.Navigate(profile);
         }
 
         private void Mint_Click(object sender, RoutedEventArgs e)
         {
-            
+            MintMargaritaProfile profile = new MintMargaritaProfile();
+            NavigationService.Navigate(profile);
         }
 
         private void Cancel_Click(object sender, RoutedEventArgs e)
