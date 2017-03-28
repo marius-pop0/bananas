@@ -106,8 +106,7 @@
         <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" PanningMode="VerticalOnly" HorizontalAlignment="Left" Width="736" Margin="0,330,-1,50">
             <StackPanel Orientation="Vertical" Width="749">
 
-                <TextBlock x:Name="blueMargarita" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Blue Margarita" FontFamily="Felix Titling" TextAlignment="Left" />
-                <Button x:Name="blueMargaritaMenu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="blueMargaritaMenu_Click"/>
+                <TextBlock x:Name="blueMargarita" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="750" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Blue Margarita" FontFamily="Felix Titling" TextAlignment="Left" />
                 <Button x:Name="blueMargaritaButton" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="blueMargaritaButton_Click">
                     <Button.Template>
                         <ControlTemplate>
@@ -118,9 +117,8 @@
                 <TextBlock x:Name="blueMargaritaDescription" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
                            Text="&#x2764; 20 &#x0a;&#x0a;&#x0a;A tequila based drink containing blue curacao in&#x0a;addition to lime juice" 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
-              
-                <TextBlock x:Name="drink5Name" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Cuba Libre" FontFamily="Felix Titling" TextAlignment="Left" />
-                <Button x:Name="drink5Menu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="cubaLibreMenu_Click"/>
+
+                <TextBlock x:Name="drink5Name" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="750" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Cuba Libre" FontFamily="Felix Titling" TextAlignment="Left" />
                 <Button x:Name="drink5" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="cubaLibre_Click">
                     <Button.Template>
                         <ControlTemplate>
@@ -132,9 +130,8 @@
                            Text="&#x2665; 37 &#x0a;&#x0a;&#x0a;A caffeinated alcoholic cocktail made of cola, lime,&#x0a;and white or dark rum" 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
 
-                <TextBlock x:Name="grapeMargarita" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="GrapeFruit Margarita" FontFamily="Felix Titling" TextAlignment="Left" />
-                <Button x:Name="grapeMargaritaMenu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="grapeMargaritaMenu_Click"/>
-                <Button x:Name="grapeMargaritaButton" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="grapeMargaritaButton_Click">
+                <TextBlock x:Name="grapeMargarita" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="750" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="GrapeFruit Margarita" FontFamily="Felix Titling" TextAlignment="Left" />
+                 <Button x:Name="grapeMargaritaButton" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="grapeMargaritaButton_Click">
                     <Button.Template>
                         <ControlTemplate>
                             <Image Source="/Images\GMargarita.jpg" Stretch="Fill"/>
@@ -145,8 +142,7 @@
                            Text="&#x2764; 28 &#x0a;&#x0a;&#x0a;A tequila cocktail mixed with orange, lime and&#x0a;grapefruit juice in addition to simple syrup" 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
 
-                <TextBlock x:Name="drink1Name" Background="#f4f4f4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,3,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Margarita" FontFamily="Felix Titling" TextAlignment="Left" />
-                <Button x:Name="drink1Menu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="margaritaMenu_Click"/>
+                <TextBlock x:Name="drink1Name" Background="#f4f4f4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="750" Margin="0,3,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Margarita" FontFamily="Felix Titling" TextAlignment="Left" />
                 <Button x:Name="drink1" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="562.5" Click="margarita_Click">
                     <Button.Template>
                         <ControlTemplate>
@@ -158,8 +154,7 @@
                            Text="&#x2665; 17 &#x0a;&#x0a;Cocktail consisting of Triple Sec, Tequila and Lime &#x0a;or Lemon Juice, often served with Salt or Sugar on &#x0a;the rim of the glass." 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
 
-                <TextBlock x:Name="mintMargarita" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Mint Margarita" FontFamily="Felix Titling" TextAlignment="Left" />
-                <Button x:Name="mintMargaritaMenu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="mintMargaritaMenu_Click"/>
+                <TextBlock x:Name="mintMargarita" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="750" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Mint Margarita" FontFamily="Felix Titling" TextAlignment="Left" />
                 <Button x:Name="mintMargaritaButton" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="mintMargaritaButton_Click">
                     <Button.Template>
                         <ControlTemplate>
@@ -171,8 +166,7 @@
                            Text="&#x2764; 15 &#x0a;&#x0a;&#x0a;A tequila cocktail mixed with Spring Mint, Sprite&#x0a;and Lime Juice" 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
 
-                <TextBlock x:Name="drink3Name" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Mojito" FontFamily="Felix Titling" TextAlignment="Left" />
-                <Button x:Name="drink3Menu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="mojito_Click"/>
+                <TextBlock x:Name="drink3Name" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="750" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Mojito" FontFamily="Felix Titling" TextAlignment="Left" />
                 <Button x:Name="drink3" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="mojito_Click">
                     <Button.Template>
                         <ControlTemplate>
@@ -186,8 +180,7 @@
 
 
 
-                <TextBlock x:Name="drink4Name" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Tequila Sunrise" FontFamily="Felix Titling" TextAlignment="Left" />
-                <Button x:Name="drink4Menu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="tequilaSunriseMenu_Click"/>
+                <TextBlock x:Name="drink4Name" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="750" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="Tequila Sunrise" FontFamily="Felix Titling" TextAlignment="Left" />
                 <Button x:Name="drink4" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="tequilaSunrise_Click">
                     <Button.Template>
                         <ControlTemplate>
@@ -201,8 +194,7 @@
 
 
 
-                <TextBlock x:Name="drink2Name" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="630" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="White Russian" FontFamily="Felix Titling" TextAlignment="Left" />
-                <Button x:Name="drink2Menu" FontFamily="Felix Titling" Content="..." HorizontalAlignment="Left" Margin="621,-121,0,0" Height="122"  Width="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="whiteRussian_Click"/>
+                <TextBlock x:Name="drink2Name" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="750" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="White Russian" FontFamily="Felix Titling" TextAlignment="Left" />
                 <Button x:Name="drink2" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="750" Click="whiteRussian_Click">
                     <Button.Template>
                         <ControlTemplate>
