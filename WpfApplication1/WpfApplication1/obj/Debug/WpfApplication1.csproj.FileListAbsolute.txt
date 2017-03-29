@@ -220,3 +220,7 @@ C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\ob
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\MintMargaritaProfile.baml
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\GrapeMargaritaProfile.g.cs
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\GrapeMargaritaProfile.baml
+C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\TequilaCategory.g.cs
+C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\TequilaCategory.baml
+C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\MainPageHeartSort.g.cs
+C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\MainPageHeartSort.baml

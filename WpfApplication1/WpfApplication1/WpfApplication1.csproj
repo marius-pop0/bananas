@@ -70,6 +70,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MainPageHeartSort.xaml.cs">
+      <DependentUpon>MainPageHeartSort.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MargaritaProfile.xaml.cs">
       <DependentUpon>MargaritaProfile.xaml</DependentUpon>
     </Compile>
@@ -84,6 +87,9 @@
     </Compile>
     <Compile Include="SearchScreen.xaml.cs">
       <DependentUpon>SearchScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TequilaCategory.xaml.cs">
+      <DependentUpon>TequilaCategory.xaml</DependentUpon>
     </Compile>
     <Compile Include="TequilaSunriseProfile.xaml.cs">
       <DependentUpon>TequilaSunriseProfile.xaml</DependentUpon>
@@ -108,6 +114,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPageHeartSort.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -140,6 +150,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SearchScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TequilaCategory.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

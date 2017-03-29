@@ -19,9 +19,9 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for MainPage.xaml
     /// </summary>
-    public partial class FavoriteRecipes : Page
+    public partial class TequilaCategory : Page
     {
-        public FavoriteRecipes()
+        public TequilaCategory()
         {
             InitializeComponent();
         }
@@ -66,6 +66,36 @@ namespace WpfApplication1
             NavigationService.Navigate(MGprofile);
         }
 
+        private void blueMargaritaButton_Click(object sender, RoutedEventArgs e)
+        {
+            BlueMargaritaProfile BMprofile = new BlueMargaritaProfile();
+            NavigationService.Navigate(BMprofile);
+        }
+
+        private void grapeMargaritaButton_Click(object sender, RoutedEventArgs e)
+        {
+            GrapeMargaritaProfile GMprofile = new GrapeMargaritaProfile();
+            NavigationService.Navigate(GMprofile);
+        }
+
+        private void margarita_Click(object sender, RoutedEventArgs e)
+        {
+            MargaritaProfile MGprofile = new MargaritaProfile();
+            NavigationService.Navigate(MGprofile);
+        }
+
+        private void mintMargaritaButton_Click(object sender, RoutedEventArgs e)
+        {
+            MintMargaritaProfile Mintprofile = new MintMargaritaProfile();
+            NavigationService.Navigate(Mintprofile);
+        }
+
+        private void tequilaSunrise_Click(object sender, RoutedEventArgs e)
+        {
+            TequilaSunriseProfile TSprofile = new TequilaSunriseProfile();
+            NavigationService.Navigate(TSprofile);
+        }
+
         private void vodkaCat_Click(object sender, RoutedEventArgs e)
         {
 
@@ -105,36 +135,5 @@ namespace WpfApplication1
 
         }
 
-        private void cubaLibre_Click(object sender, RoutedEventArgs e)
-        {
-            CubaLibreProfile CLprofile = new CubaLibreProfile();
-            NavigationService.Navigate(CLprofile);
-        }
-
-
-        private void margarita_Click(object sender, RoutedEventArgs e)
-        {
-            MargaritaProfile MGprofile = new MargaritaProfile();
-            NavigationService.Navigate(MGprofile);
-        }
-
-        private void mojito_Click(object sender, RoutedEventArgs e)
-        {
-            MojitoProfile MJprofile = new MojitoProfile();
-            NavigationService.Navigate(MJprofile);
-        }       
-
-        private void tequilaSunrise_Click(object sender, RoutedEventArgs e)
-        {
-            TequilaSunriseProfile TSprofile = new TequilaSunriseProfile();
-            NavigationService.Navigate(TSprofile);
-        }
-
-        private void whiteRussian_Click(object sender, RoutedEventArgs e)
-        {
-            WhiteRussianProfile WRprofile = new WhiteRussianProfile();
-            NavigationService.Navigate(WRprofile);
-        }
-       
     }
 }

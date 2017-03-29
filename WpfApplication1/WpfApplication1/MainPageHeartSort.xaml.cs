@@ -19,9 +19,9 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for MainPage.xaml
     /// </summary>
-    public partial class MainPage : Page
+    public partial class MainPageHeartSort : Page
     {
-        public MainPage()
+        public MainPageHeartSort()
         {
             InitializeComponent();
         }
@@ -33,21 +33,23 @@ namespace WpfApplication1
             tAnimation.Duration = new Duration(TimeSpan.FromSeconds(0.5));
 
             string marginLeft = Content.Margin.Left.ToString();
-            if (marginLeft == "0") {
+            if (marginLeft == "0")
+            {
                 tAnimation.From = new Thickness(0, 0, 0, 0);
                 tAnimation.To = new Thickness(500, 0, 0, 0);
             }
-            else{
+            else
+            {
                 tAnimation.From = new Thickness(500, 0, 0, 0);
                 tAnimation.To = new Thickness(0, 0, 0, 0);
             }
-            
+
             Storyboard.SetTarget(tAnimation, Content);
             Storyboard.SetTargetProperty(tAnimation, new PropertyPath(FrameworkElement.MarginProperty));
             Storyboard storyboard = new Storyboard();
             storyboard.Children.Add(tAnimation);
             storyboard.Begin(Content);
-            
+
         }
 
         private void Search_Click(object sender, RoutedEventArgs e)
@@ -135,14 +137,14 @@ namespace WpfApplication1
 
         private void Sorting_Click(object sender, RoutedEventArgs e)
         {
-            MainPageHeartSort drinkBox = new MainPageHeartSort();
+            MainPage drinkBox = new MainPage();
             NavigationService.Navigate(drinkBox);
         }
 
         private void Random_Click(object sender, RoutedEventArgs e)
         {
-            GrapeMargaritaProfile GMprofile = new GrapeMargaritaProfile();
-            NavigationService.Navigate(GMprofile);
+            MintMargaritaProfile Mintprofile = new MintMargaritaProfile();
+            NavigationService.Navigate(Mintprofile);
         }
 
         private void Favorite_Click(object sender, RoutedEventArgs e)
