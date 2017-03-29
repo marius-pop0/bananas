@@ -124,5 +124,14 @@
                 <Button x:Name="cognacCat" Content="COGNAC" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#F4F4F4" Height="49" Click="cognacCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
             </StackPanel>
         </ScrollViewer>
+
+        <Polygon Points="10,45 0,50, 10,55" Stroke="Black" Fill="LightBlue" Margin="0,175,0,0"/>
+        <Polygon Points="0,45 10,50, 0,55" Stroke="Black" Fill="LightBlue" Margin="726,175,0,0"/>
+
+        <Polygon Points="10,45 0,50, 10,55" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,18"/>
+        <Polygon Points="0,45 10,50, 0,55" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,18"/>
+
+        <Polygon Points="5,0 10,10, 0,10" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,120,0,0"/>
+        <Polygon Points="0,0 5,10, 10,0" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,160,0,0"/>
     </Grid>
 </Page>

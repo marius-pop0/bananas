@@ -234,7 +234,16 @@
         <Button Background="#DCD0C0" x:Name="Cabinet" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,360,0,0" Padding="40" FontSize="40" Content="Liquor Cabinet" FontFamily="Felix Titling" Width="500"/>
         <Button Background="#F4F4F4" x:Name="Random" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,480,0,0" Padding="40" FontSize="40" Content="Random Drink" FontFamily="Felix Titling" Width="500" Click="Random_Click"/>
         <Button Background="#DCD0C0" x:Name="Tutorials" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,600,0,0" Padding="40" FontSize="40" Content="Tutorials" FontFamily="Felix Titling" Width="500"/>
-         <TextBlock Background="#9B9B9B" x:Name="Copyright" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Margin="-500,1285,0,0" Padding="7" FontSize="26" Text="Copyright 2017 ***" FontFamily="Felix Titling" Width="500"/>
-       
+        <TextBlock Background="#9B9B9B" x:Name="Copyright" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Margin="-500,1285,0,0" Padding="7" FontSize="26" Text="Copyright 2017 ***" FontFamily="Felix Titling" Width="500"/>
+
+        <Polygon Points="10,45 0,50, 10,55" Stroke="Black" Fill="LightBlue" Margin="0,175,0,0"/>
+        <Polygon Points="0,45 10,50, 0,55" Stroke="Black" Fill="LightBlue" Margin="726,175,0,0"/>
+
+        <Polygon Points="10,45 0,50, 10,55" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,18"/>
+        <Polygon Points="0,45 10,50, 0,55" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,18"/>
+
+        <Polygon Points="5,0 10,10, 0,10" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,120,0,0"/>
+        <Polygon Points="0,0 5,10, 10,0" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,160,0,0"/>
+
     </Grid>
 </Page>
