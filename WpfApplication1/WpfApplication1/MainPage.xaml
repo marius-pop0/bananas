@@ -208,8 +208,12 @@
                 <TextBlock x:Name="drink2Description" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
                            Text="&#x2665; 26 &#x0a;&#x0a;&#x0a;Cocktail made with Vodka, Coffee Liqueur, and &#x0a;Cream or Milk served with Ice and usually in an &#x0a;Old Fashioned Glass." 
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
-
-                <Rectangle x:Name="Fave_CBlibre" Fill="#373737" HorizontalAlignment="Left" Height="100" Margin="325,-6250,0,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="100" RadiusX="20" RadiusY="20" Opacity="0" />
+                <Grid x:Name="Fave_CBlibre" Opacity="0">
+                    <Rectangle  Fill="#F4F4F4" Height="100" Margin="0,-6250,0,0" Stroke="Black" StrokeThickness="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="100" RadiusX="20" RadiusY="20"/>
+                    <TextBlock Text="&#x2764;" FontSize="25" Margin="0,-6225,0,0" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Added To Favorites" FontSize="8" Margin="0,-6180,0,0" HorizontalAlignment="Center"/>
+                </Grid>
+                
             </StackPanel>
         </ScrollViewer>
 
