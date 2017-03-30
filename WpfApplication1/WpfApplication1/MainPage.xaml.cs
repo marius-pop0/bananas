@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Media.Animation;
+using System.Timers;
+using System.Diagnostics;
 
 namespace WpfApplication1
 {
@@ -23,8 +25,14 @@ namespace WpfApplication1
     {
         public MainPage()
         {
+            ClickTimer = new Timer(300);
+            ClickTimer.Elapsed += new ElapsedEventHandler(EvaluateClicks);
             InitializeComponent();
         }
+
+        private int ClickCounter;
+        Timer ClickTimer = new Timer();
+
         private void Settings_Click(object sender, RoutedEventArgs e)
         {
 
@@ -33,23 +41,39 @@ namespace WpfApplication1
             tAnimation.Duration = new Duration(TimeSpan.FromSeconds(0.5));
 
             string marginLeft = Content.Margin.Left.ToString();
-            if (marginLeft == "0") {
+            if (marginLeft == "0")
+            {
                 tAnimation.From = new Thickness(0, 0, 0, 0);
                 tAnimation.To = new Thickness(500, 0, 0, 0);
             }
-            else{
+            else
+            {
                 tAnimation.From = new Thickness(500, 0, 0, 0);
                 tAnimation.To = new Thickness(0, 0, 0, 0);
             }
-            
+
             Storyboard.SetTarget(tAnimation, Content);
             Storyboard.SetTargetProperty(tAnimation, new PropertyPath(FrameworkElement.MarginProperty));
             Storyboard storyboard = new Storyboard();
             storyboard.Children.Add(tAnimation);
             storyboard.Begin(Content);
-            
-        }
 
+        }
+        private void Favorite_Double()
+        {
+            DoubleAnimation fadeIn_Out = new DoubleAnimation();
+            fadeIn_Out.From = 0;
+            fadeIn_Out.To = 0.85;
+            fadeIn_Out.Duration = new Duration(TimeSpan.FromSeconds(1.0));
+            fadeIn_Out.AutoReverse = true;
+
+            Storyboard.SetTarget(fadeIn_Out, Fave_CBlibre);
+            Storyboard.SetTargetProperty(fadeIn_Out, new PropertyPath(FrameworkElement.OpacityProperty));
+            Storyboard storyboard = new Storyboard();
+            storyboard.Children.Add(fadeIn_Out);
+            storyboard.Begin(Fave_CBlibre);
+
+        }
         private void Search_Click(object sender, RoutedEventArgs e)
         {
             Page1 emptySearch = new Page1();
@@ -190,6 +214,39 @@ namespace WpfApplication1
         {
 
         }
+        private void drink5_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            ClickTimer.Stop();
+            ClickCounter++;
+            ClickTimer.Start();
+        }
 
+        private void EvaluateClicks(object source, ElapsedEventArgs e)
+        {
+            ClickTimer.Stop();
+            // Evaluate ClickCounter here
+
+            if (ClickCounter == 1)
+            {
+                Trace.Write("you single Clicked");
+                this.Dispatcher.Invoke(() =>
+                {
+                    CubaLibreProfile CBprofile = new CubaLibreProfile();
+                    NavigationService.Navigate(CBprofile);
+                });
+
+                ClickCounter = 0;
+            }
+            if (ClickCounter >= 2)
+            {
+                ClickCounter = 0;
+                Trace.Write("you double Clicked");
+                this.Dispatcher.Invoke(() =>
+                {
+                    Favorite_Double();
+                });
+
+            }
+        }
     }
 }

@@ -127,7 +127,6 @@ C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\De
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\MargaritaProfile.g.cs
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\MojitoProfile.g.cs
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\SearchScreen.g.cs
-C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\SettingsMenu.g.cs
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TequilaSunriseProfile.g.cs
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\WhiteRussianProfile.g.cs
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
@@ -138,7 +137,6 @@ C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\De
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\MargaritaProfile.baml
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\MojitoProfile.baml
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\SearchScreen.baml
-C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\SettingsMenu.baml
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TequilaSunriseProfile.baml
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\WhiteRussianProfile.baml
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
@@ -224,3 +222,17 @@ C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\ob
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\TequilaCategory.baml
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\MainPageHeartSort.g.cs
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\MainPageHeartSort.baml
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\BlueMargaritaProfile.g.cs
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\FavoriteRecipes.g.cs
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\GrapeMargaritaProfile.g.cs
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\MainPageHeartSort.g.cs
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\MintMargaritaProfile.g.cs
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\EmptySearch.g.cs
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TequilaCategory.g.cs
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\BlueMargaritaProfile.baml
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\FavoriteRecipes.baml
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\GrapeMargaritaProfile.baml
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\MainPageHeartSort.baml
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\MintMargaritaProfile.baml
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\EmptySearch.baml
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TequilaCategory.baml
