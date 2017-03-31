@@ -64,6 +64,9 @@
     <Compile Include="FavoriteRecipes.xaml.cs">
       <DependentUpon>FavoriteRecipes.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FavoriteRecipesHeartSort.xaml.cs">
+      <DependentUpon>FavoriteRecipesHeartSort.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GrapeMargaritaProfile.xaml.cs">
       <DependentUpon>GrapeMargaritaProfile.xaml</DependentUpon>
     </Compile>
@@ -108,6 +111,10 @@
     <Page Include="FavoriteRecipes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FavoriteRecipesHeartSort.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="GrapeMargaritaProfile.xaml">
       <SubType>Designer</SubType>

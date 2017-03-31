@@ -149,7 +149,7 @@ namespace WpfApplication1
 
         private void Favorite_Click(object sender, RoutedEventArgs e)
         {
-            FavoriteRecipes favoriteRecipes = new FavoriteRecipes();
+            FavoriteRecipesHeartSort favoriteRecipes = new FavoriteRecipesHeartSort();
             NavigationService.Navigate(favoriteRecipes);
         }
 

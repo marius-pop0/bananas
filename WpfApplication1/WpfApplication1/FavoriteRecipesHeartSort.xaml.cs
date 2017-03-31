@@ -19,9 +19,9 @@ namespace WpfApplication1
     /// <summary>
     /// Interaction logic for MainPage.xaml
     /// </summary>
-    public partial class FavoriteRecipes : Page
+    public partial class FavoriteRecipesHeartSort : Page
     {
-        public FavoriteRecipes()
+        public FavoriteRecipesHeartSort()
         {
             InitializeComponent();
         }
@@ -123,7 +123,7 @@ namespace WpfApplication1
         {
             MojitoProfile MJprofile = new MojitoProfile();
             NavigationService.Navigate(MJprofile);
-        }       
+        }
 
         private void tequilaSunrise_Click(object sender, RoutedEventArgs e)
         {
@@ -136,6 +136,6 @@ namespace WpfApplication1
             WhiteRussianProfile WRprofile = new WhiteRussianProfile();
             NavigationService.Navigate(WRprofile);
         }
-       
+
     }
 }
