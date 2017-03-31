@@ -114,24 +114,16 @@
 
         <ScrollViewer HorizontalScrollBarVisibility="Hidden" PanningMode="HorizontalOnly" VerticalScrollBarVisibility="Hidden" VerticalAlignment="Bottom" Margin="0,69,0,0">
             <StackPanel Orientation="Horizontal">
-                <Button x:Name="vodkaCat" Content="VODKA" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#DCD0C0" Height="49" Click="vodkaCat_Click" BorderThickness="0" FontFamily="Felix Titling" FontSize="25"/>
-                <Button x:Name="rumCat" Content="RUM" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left"  Width="150" Background="#F4F4F4" Height="49" Click="rumCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="tequilaCat" Content="TEQUILA" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#DCD0C0" Height="49" Click="tequilaCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="whiskyCat" Content="WHISKY" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#F4F4F4" Height="49" Click="whiskyCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="liqueurCat" Content="LIQUEUR" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#DCD0C0" Height="49" Click="liqueurCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="brandyCat" Content="Brandy" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#F4F4F4" Height="49" Click="brandyCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="ginCat" Content="GIN" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#DCD0C0" Height="49" Click="ginCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="cognacCat" Content="COGNAC" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#F4F4F4" Height="49" Click="cognacCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
+                <Button x:Name="vodkaCat" Content="VODKA" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#DCD0C0" Height="49" Click="vodkaCat_Click" BorderThickness="0" FontFamily="Felix Titling" FontSize="25"/>
+                <Button x:Name="rumCat" Content="RUM" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left"  Width="170" Background="#F4F4F4" Height="49" Click="rumCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
+                <Button x:Name="tequilaCat" Content="TEQUILA" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#DCD0C0" Height="49" Click="tequilaCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
+                <Button x:Name="whiskyCat" Content="WHISKY" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#F4F4F4" Height="49" Click="whiskyCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
+                <Button x:Name="liqueurCat" Content="LIQUEUR" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#DCD0C0" Height="49" Click="liqueurCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
+                <Button x:Name="brandyCat" Content="Brandy" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#F4F4F4" Height="49" Click="brandyCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
+                <Button x:Name="ginCat" Content="GIN" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#DCD0C0" Height="49" Click="ginCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
+                <Button x:Name="cognacCat" Content="COGNAC" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#F4F4F4" Height="49" Click="cognacCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
             </StackPanel>
         </ScrollViewer>
 
-        <Polygon Points="10,45 0,50, 10,55" Stroke="Black" Fill="LightBlue" Margin="0,175,0,0"/>
-        <Polygon Points="0,45 10,50, 0,55" Stroke="Black" Fill="LightBlue" Margin="726,175,0,0"/>
-
-        <Polygon Points="10,45 0,50, 10,55" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,18"/>
-        <Polygon Points="0,45 10,50, 0,55" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,18"/>
-
-        <Polygon Points="5,0 10,10, 0,10" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,120,0,0"/>
-        <Polygon Points="0,0 5,10, 10,0" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,160,0,0"/>
     </Grid>
 </Page>

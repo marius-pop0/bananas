@@ -141,10 +141,20 @@ namespace WpfApplication1
             NavigationService.Navigate(drinkBox);
         }
 
+        private void Suggestion_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void Random_Click(object sender, RoutedEventArgs e)
         {
             MintMargaritaProfile Mintprofile = new MintMargaritaProfile();
             NavigationService.Navigate(Mintprofile);
+        }
+
+        private void Tutorials_Click(object sender, RoutedEventArgs e)
+        {
+
         }
 
         private void Favorite_Click(object sender, RoutedEventArgs e)

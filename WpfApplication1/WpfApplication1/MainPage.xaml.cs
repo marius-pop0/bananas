@@ -163,6 +163,16 @@ namespace WpfApplication1
             NavigationService.Navigate(drinkBox);
         }
 
+        private void Suggestion_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Tutorials_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void Random_Click(object sender, RoutedEventArgs e)
         {
             GrapeMargaritaProfile GMprofile = new GrapeMargaritaProfile();
@@ -248,5 +258,6 @@ namespace WpfApplication1
 
             }
         }
+
     }
 }

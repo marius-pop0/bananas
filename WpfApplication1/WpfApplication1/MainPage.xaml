@@ -210,7 +210,7 @@
                            FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
                 <Grid x:Name="Fave_CBlibre" Opacity="0">
                     <Rectangle  Fill="#F4F4F4" Height="100" Margin="0,-6250,0,0" Stroke="Black" StrokeThickness="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="100" RadiusX="20" RadiusY="20"/>
-                    <TextBlock Text="&#x2764;" FontSize="25" Margin="0,-6225,0,0" HorizontalAlignment="Center"/>
+                    <TextBlock Text="&#x2665;" FontSize="55" Margin="0,-6245,0,0" HorizontalAlignment="Center"/>
                     <TextBlock Text="Added To Favorites" FontSize="8" Margin="0,-6180,0,0" HorizontalAlignment="Center"/>
                 </Grid>
                 
@@ -219,14 +219,14 @@
 
         <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" PanningMode="HorizontalOnly" VerticalAlignment="Bottom" Margin="0,69,0,0">
             <StackPanel Orientation="Horizontal">
-                <Button x:Name="vodkaCat" Content="VODKA" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#DCD0C0" Height="49" Click="vodkaCat_Click" BorderThickness="0" FontFamily="Felix Titling" FontSize="25"/>
-                <Button x:Name="rumCat" Content="RUM" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left"  Width="150" Background="#F4F4F4" Height="49" Click="rumCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="tequilaCat" Content="TEQUILA" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#DCD0C0" Height="49" Click="tequilaCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="whiskyCat" Content="WHISKY" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#F4F4F4" Height="49" Click="whiskyCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="liqueurCat" Content="LIQUEUR" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#DCD0C0" Height="49" Click="liqueurCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="brandyCat" Content="Brandy" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#F4F4F4" Height="49" Click="brandyCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="ginCat" Content="GIN" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#DCD0C0" Height="49" Click="ginCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="cognacCat" Content="COGNAC" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="150" Background="#F4F4F4" Height="49" Click="cognacCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
+                <Button x:Name="vodkaCat" Content="VODKA" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#DCD0C0" Height="49" Click="vodkaCat_Click" BorderThickness="0" FontFamily="Felix Titling" FontSize="25"/>
+                <Button x:Name="rumCat" Content="RUM" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left"  Width="170" Background="#F4F4F4" Height="49" Click="rumCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
+                <Button x:Name="tequilaCat" Content="TEQUILA" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#DCD0C0" Height="49" Click="tequilaCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
+                <Button x:Name="whiskyCat" Content="WHISKY" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#F4F4F4" Height="49" Click="whiskyCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
+                <Button x:Name="liqueurCat" Content="LIQUEUR" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#DCD0C0" Height="49" Click="liqueurCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
+                <Button x:Name="brandyCat" Content="Brandy" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#F4F4F4" Height="49" Click="brandyCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
+                <Button x:Name="ginCat" Content="GIN" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#DCD0C0" Height="49" Click="ginCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
+                <Button x:Name="cognacCat" Content="COGNAC" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#F4F4F4" Height="49" Click="cognacCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
             </StackPanel>
         </ScrollViewer>
 
@@ -235,19 +235,10 @@
         <TextBlock Background="#9B9B9B" x:Name="SettingTitle" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,0,0,0" TextWrapping="NoWrap" Padding="40" FontSize="40" Text="Settings" FontFamily="Felix Titling" TextAlignment="Center" Width="500"/>
         <Button Background="#DCD0C0" x:Name="Sorting" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120"  Margin="-500,120,0,0" Padding="40" FontSize="40" Content="Toggle Sorting" FontFamily="Felix Titling" Width="500" Click="Sorting_Click"/>
         <Button Background="#F4F4F4" x:Name="Favorite" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,240,0,0" Padding="40" FontSize="40" Content="Favorite Recipes" FontFamily="Felix Titling" Width="500" Click="Favorite_Click"/>
-        <Button Background="#DCD0C0" x:Name="Cabinet" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,360,0,0" Padding="40" FontSize="40" Content="Liquor Cabinet" FontFamily="Felix Titling" Width="500"/>
+        <Button Background="#DCD0C0" x:Name="Suggestion" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,360,0,0" Padding="40" FontSize="40" Content="Suggest Drink" FontFamily="Felix Titling" Width="500" Click="Suggestion_Click"/>
         <Button Background="#F4F4F4" x:Name="Random" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,480,0,0" Padding="40" FontSize="40" Content="Random Drink" FontFamily="Felix Titling" Width="500" Click="Random_Click"/>
-        <Button Background="#DCD0C0" x:Name="Tutorials" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,600,0,0" Padding="40" FontSize="40" Content="Tutorials" FontFamily="Felix Titling" Width="500"/>
+        <Button Background="#DCD0C0" x:Name="Tutorials" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="-500,600,0,0" Padding="40" FontSize="40" Content="Tutorials" FontFamily="Felix Titling" Width="500" Click="Tutorials_Click"/>
         <TextBlock Background="#9B9B9B" x:Name="Copyright" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Margin="-500,1285,0,0" Padding="7" FontSize="26" Text="Copyright 2017 ***" FontFamily="Felix Titling" Width="500"/>
-
-        <Polygon Points="10,45 0,50, 10,55" Stroke="Black" Fill="LightBlue" Margin="0,175,0,0"/>
-        <Polygon Points="0,45 10,50, 0,55" Stroke="Black" Fill="LightBlue" Margin="726,175,0,0"/>
-
-        <Polygon Points="10,45 0,50, 10,55" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,18"/>
-        <Polygon Points="0,45 10,50, 0,55" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,18"/>
-
-        <Polygon Points="5,0 10,10, 0,10" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,120,0,0"/>
-        <Polygon Points="0,0 5,10, 10,0" Stroke="Black" Fill="LightBlue" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,160,0,0"/>
 
     </Grid>
 </Page>
