@@ -91,6 +91,9 @@
     <Compile Include="SearchScreen.xaml.cs">
       <DependentUpon>SearchScreen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SugestDrink.xaml.cs">
+      <DependentUpon>SugestDrink.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TequilaCategory.xaml.cs">
       <DependentUpon>TequilaCategory.xaml</DependentUpon>
     </Compile>
@@ -157,6 +160,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SearchScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SugestDrink.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

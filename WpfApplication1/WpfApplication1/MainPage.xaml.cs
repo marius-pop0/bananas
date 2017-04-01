@@ -165,7 +165,8 @@ namespace WpfApplication1
 
         private void Suggestion_Click(object sender, RoutedEventArgs e)
         {
-
+            SugestDrink sg = new SugestDrink();
+            NavigationService.Navigate(sg);
         }
 
         private void Tutorials_Click(object sender, RoutedEventArgs e)

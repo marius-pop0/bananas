@@ -238,3 +238,7 @@ C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\De
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TequilaCategory.baml
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\FavoriteRecipesHeartSort.g.cs
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\FavoriteRecipesHeartSort.baml
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\FavoriteRecipesHeartSort.g.cs
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\SugestDrink.g.cs
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\FavoriteRecipesHeartSort.baml
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\SugestDrink.baml
