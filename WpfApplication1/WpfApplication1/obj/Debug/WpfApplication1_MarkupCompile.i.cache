@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\
+\\samba.cs.ucalgary.ca\mmpop\Documents\CPSC481Project\tmp\bananas\WpfApplication1\WpfApplication1\obj\Debug\
 WpfApplication1
 none
 false
 DEBUG;TRACE
-C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\App.xaml
+\\samba.cs.ucalgary.ca\mmpop\Documents\CPSC481Project\tmp\bananas\WpfApplication1\WpfApplication1\App.xaml
 20-1526126024
 
-28-512191816
+28-705783512
 13738642453
 BlueMargaritaProfile.xaml;CubaLibreProfile.xaml;FavoriteRecipes.xaml;FavoriteRecipesHeartSort.xaml;GrapeMargaritaProfile.xaml;MainPage.xaml;MainPageHeartSort.xaml;MainWindow.xaml;MargaritaProfile.xaml;MintMargaritaProfile.xaml;MojitoProfile.xaml;EmptySearch.xaml;SearchScreen.xaml;SugestDrink.xaml;TequilaCategory.xaml;TequilaSunriseProfile.xaml;TutorialPage.xaml;TutorialPage2.xaml;TutorialPage3.xaml;WhiteRussianProfile.xaml;
 
-False
+True
 

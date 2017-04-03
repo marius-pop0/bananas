@@ -9,6 +9,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -32,7 +33,27 @@ namespace WpfApplication1
 
         private void Submit_Click(object sender, RoutedEventArgs e)
         {
+            Panel.SetZIndex(Submit_Screen, 99);
+            DoubleAnimation fadeIn = new DoubleAnimation();
+            fadeIn.From = 0;
+            fadeIn.To = 0.98;
+            fadeIn.Duration = new Duration(TimeSpan.FromSeconds(3.0));
+            fadeIn.Completed += new EventHandler(back_main);
 
+            Storyboard.SetTarget(fadeIn, Submit_Screen);
+            Storyboard.SetTargetProperty(fadeIn, new PropertyPath(FrameworkElement.OpacityProperty));
+            Storyboard storyboard = new Storyboard();
+            storyboard.Children.Add(fadeIn);
+            storyboard.Begin(Submit_Screen);
+
+
+        }
+        private void back_main(object sender, EventArgs e)
+        {
+            MainPage mp = new MainPage();
+            NavigationService.Navigate(mp);
+            //Maybe Better to just go Back?
+            //NavigationService.GoBack();
         }
         private void vodkaCat_Click(object sender, RoutedEventArgs e)
         {
