@@ -100,6 +100,15 @@
     <Compile Include="TequilaSunriseProfile.xaml.cs">
       <DependentUpon>TequilaSunriseProfile.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TutorialPage.xaml.cs">
+      <DependentUpon>TutorialPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TutorialPage2.xaml.cs">
+      <DependentUpon>TutorialPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TutorialPage3.xaml.cs">
+      <DependentUpon>TutorialPage3.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WhiteRussianProfile.xaml.cs">
       <DependentUpon>WhiteRussianProfile.xaml</DependentUpon>
     </Compile>
@@ -175,6 +184,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="TutorialPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TutorialPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TutorialPage3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WhiteRussianProfile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -228,6 +249,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Plus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Arrow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ArrowDown.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

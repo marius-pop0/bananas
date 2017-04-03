@@ -1,0 +1,111 @@
+﻿<Page x:Class="WpfApplication1.TutorialPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApplication1"
+      mc:Ignorable="d" 
+      d:DesignHeight="1334" d:DesignWidth="750"
+      Title="TutorialPage">
+
+    <Grid Name="Content">
+        <Rectangle Fill="#F4F4F4" HorizontalAlignment="Left" Height="120" Margin="0,0,0,0" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="750"/>
+        <TextBlock x:Name="PageTitle" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="120,0,0,0" TextWrapping="NoWrap" Padding="40" FontSize="40" Text="Tutorial" FontFamily="Felix Titling" TextAlignment="Center" Width="502"/>
+        <Button x:Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top" Width="136" Height="71" Click="Cancel_Click"/>
+        <Button x:Name="NextButton" Content="Next" HorizontalAlignment="Left" Margin="586,29,0,0" VerticalAlignment="Top" Width="136" Height="71" Click="NextButton_Click"/>
+        <Rectangle Fill="#DCD0C0" HorizontalAlignment="Left" Height="200" Margin="0,120,0,0" VerticalAlignment="Top" Width="750" Stroke="Transparent" StrokeThickness="0"/>
+        <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" PanningMode="HorizontalOnly" VerticalAlignment="Top" Height="212" Margin="0,119,0,0">
+            <StackPanel Orientation="Horizontal">
+
+                <Button Name="Fave1" Click="whiteRussianFave_Click" Margin="10,5,0,0">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Grid>
+                                <Ellipse Stroke="#F4F4F4"
+                         StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
+                                    <Ellipse.Fill>
+                                        <ImageBrush ImageSource="/Images\WRussian.jpg" Stretch="UniformToFill"></ImageBrush>
+                                    </Ellipse.Fill>
+                                </Ellipse>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button x:Name="Fave2" Click="tequilaSunriseFave_Click" Margin="10,5,0,0">
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Grid>
+                                <Ellipse Stroke="#F4F4F4"
+                         StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
+                                    <Ellipse.Fill>
+                                        <ImageBrush ImageSource="/Images\TSunrise.jpg" Stretch="UniformToFill"/>
+                                    </Ellipse.Fill>
+                                </Ellipse>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Button Name="Fave3" Click="mojitoFave_Click" Margin="10,5,0,0">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Grid>
+                                <Ellipse Stroke="#F4F4F4"
+                         StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
+                                    <Ellipse.Fill>
+                                        <ImageBrush ImageSource="/Images\Mojito.jpg" Stretch="UniformToFill"></ImageBrush>
+                                    </Ellipse.Fill>
+                                </Ellipse>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Button Name="Fave4" Click="cubaLibreFave_Click" Margin="10,5,0,0">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Grid>
+                                <Ellipse Stroke="#F4F4F4"
+                         StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
+                                    <Ellipse.Fill>
+                                        <ImageBrush ImageSource="/Images\CLibre.jpg" Stretch="UniformToFill"></ImageBrush>
+                                    </Ellipse.Fill>
+                                </Ellipse>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Button Name="Fave5" Click="margaritaFave_Click" Margin="10,5,0,0">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Grid>
+                                <Ellipse Stroke="#F4F4F4"
+                         StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190" Height="190">
+                                    <Ellipse.Fill>
+                                        <ImageBrush ImageSource="/Images\Margarita.jpg" Stretch="UniformToFill"></ImageBrush>
+                                    </Ellipse.Fill>
+                                </Ellipse>
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+            </StackPanel>
+        </ScrollViewer>
+        <Rectangle HorizontalAlignment="Left" Height="469" Margin="279,269,0,0" Stroke="Transparent" StrokeThickness="1" VerticalAlignment="Top" Width="310" RenderTransformOrigin="-3.57,-2.1">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/Images\Arrow1.png" Stretch="UniformToFill"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="312,510,0,0" TextWrapping="Wrap" Text="This is the scrollable favourites bar. Drinks that are favourited will be saved here. Clicking on a drink in the favourites bar will open the drink's recipie page" VerticalAlignment="Top" Height="118" Width="277"/>
+
+
+
+    </Grid>
+</Page>

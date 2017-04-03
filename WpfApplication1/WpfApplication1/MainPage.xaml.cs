@@ -171,7 +171,8 @@ namespace WpfApplication1
 
         private void Tutorials_Click(object sender, RoutedEventArgs e)
         {
-
+            TutorialPage tutorial = new TutorialPage();
+            NavigationService.Navigate(tutorial);
         }
 
         private void Random_Click(object sender, RoutedEventArgs e)

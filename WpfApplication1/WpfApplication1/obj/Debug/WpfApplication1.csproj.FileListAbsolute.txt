@@ -244,3 +244,27 @@ C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\De
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\SugestDrink.baml
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\SugestDrink.g.cs
 C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\SugestDrink.baml
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\BlueMargaritaProfile.g.cs
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\FavoriteRecipes.g.cs
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\FavoriteRecipesHeartSort.g.cs
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\GrapeMargaritaProfile.g.cs
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\MainPageHeartSort.g.cs
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\MintMargaritaProfile.g.cs
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\EmptySearch.g.cs
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\SugestDrink.g.cs
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TequilaCategory.g.cs
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\BlueMargaritaProfile.baml
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\FavoriteRecipes.baml
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\FavoriteRecipesHeartSort.baml
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\GrapeMargaritaProfile.baml
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\MainPageHeartSort.baml
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\MintMargaritaProfile.baml
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\EmptySearch.baml
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\SugestDrink.baml
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TequilaCategory.baml
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage.g.cs
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage2.g.cs
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage3.g.cs
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage.baml
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage2.baml
+C:\Users\Chintav Shah\Dropbox\University\Third Year CS\Winter 2017\CPSC 481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage3.baml
