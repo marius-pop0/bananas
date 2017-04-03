@@ -138,6 +138,6 @@
                 <Button x:Name="cognacCat" Content="COGNAC" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#F4F4F4" Height="49" Click="cognacCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
             </StackPanel>
         </ScrollViewer>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="24,247,0,0" TextWrapping="Wrap" Text="At the very bottom of the screen, there is a scrollable catagories bar. Clicking on a type of alcohol will open a list of drinks that contain teh type of alcohol in them." VerticalAlignment="Top" Height="78" Width="281"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="24,247,0,0" TextWrapping="Wrap" Text="The scrollable Categories Bar is located at the bottom of the Main Window. Tapping on a category will display drinks containg that specific ingredient within the Main Window." VerticalAlignment="Top" Height="78" Width="281"/>
     </Grid>
 </Page>
