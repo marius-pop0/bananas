@@ -23,13 +23,14 @@ namespace WpfApplication1
         public SugestDrink()
         {
             InitializeComponent();
+            
         }
         private void Back_Click(object sender, RoutedEventArgs e)
         {
             this.NavigationService.GoBack();
         }
 
-        private void Search_Click(object sender, RoutedEventArgs e)
+        private void Submit_Click(object sender, RoutedEventArgs e)
         {
 
         }
@@ -83,6 +84,9 @@ namespace WpfApplication1
             TextBox tb = (TextBox)sender;
             tb.Text = string.Empty;
             tb.GotFocus -= TextBlock_GotFocus;
+
+            
+
         }
 
         private void Plus_Click(object sender, RoutedEventArgs e)
@@ -91,6 +95,11 @@ namespace WpfApplication1
         }
 
         private void Minus_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
