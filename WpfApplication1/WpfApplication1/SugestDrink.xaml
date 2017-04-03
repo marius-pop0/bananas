@@ -29,8 +29,9 @@
                     </Button.Template>
                 </Button>
                 <TextBlock Text="Drink Info" Background="WhiteSmoke" FontFamily="Footlight MT Light" FontSize="40"/>
-                <TextBlock x:Name="Drink_name" Grid.Column="1" FontSize="25" FontFamily="Footlight MT Light" TextWrapping="Wrap" Text="Drink Name" Padding="5" Background="#DCD0C0" GotFocus="TextBlock_GotFocus"/>
-                <TextBox Height="50" Padding="5" FontSize="25" TextAlignment="Left" TextWrapping="Wrap"/>
+                <TextBlock Grid.Column="1" FontSize="25" FontFamily="Footlight MT Light" TextWrapping="Wrap" Text="Drink Name" Padding="5" Background="#DCD0C0" GotFocus="TextBlock_GotFocus"/>
+                <TextBox x:Name="Drink_name" Height="50" Padding="5" FontSize="25" TextAlignment="Left" TextWrapping="Wrap"/>
+                <TextBlock x:Name="Drink_name_error" Text="" Opacity="1" Background="#DCD0C0" Foreground="Red"/>
                 <Grid x:Name="Ingredient">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="187*"/>
@@ -55,10 +56,10 @@
                     </Button>
                 </Grid>
                 <Grid x:Name="Ingredient_List">
-                    <TextBox FontSize="25"  Padding="5" TextWrapping="NoWrap" Margin="0,0,236,0"/>
-                    <TextBox FontSize="25" TextWrapping="NoWrap" TextAlignment="Center" Padding="5" HorizontalAlignment="Right" Width="250"/>
+                    <TextBox x:Name="Ingredient_Name" FontSize="25"  Padding="5" TextWrapping="NoWrap" Margin="0,0,236,0"/>
+                    <TextBox x:Name="Ingredient_Quantity" FontSize="25" TextWrapping="NoWrap" TextAlignment="Center" Padding="5" HorizontalAlignment="Right" Width="250"/>
                 </Grid>
-
+                <TextBlock x:Name="Drink_Ingredient_error" Text="" Opacity="1" Background="#DCD0C0" Foreground="Red"/>
                 <Grid x:Name="Recipe">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="187*"/>
@@ -84,12 +85,15 @@
                 </Grid>
                 <Grid x:Name="Recipe_List_1">
                     <TextBlock Text="1." Padding="5" FontSize="25" FontFamily="Footlight MT Light" Width="30" Background="#DCD0C0" HorizontalAlignment="Left" Height="46" Margin="0,0,0,-0.5" VerticalAlignment="Top"/>
-                    <TextBox FontSize="25"  Padding="5" TextWrapping="NoWrap" Margin="30,0,0,0"/>
+                    <TextBox x:Name="Drink_Recipe" FontSize="25"  Padding="5" TextWrapping="NoWrap" Margin="30,0,0,0"/>
                 </Grid>
-
+                <TextBlock x:Name="Drink_Recipe_error" Text="" Opacity="1" Background="#DCD0C0" Foreground="Red"/>
+                
                 <TextBlock x:Name="Description" Grid.Row="1" Grid.Column="1" FontSize="25" FontFamily="Footlight MT Light" Background="#DCD0C0" Text="Drink Description" Padding="5"/>
-                <TextBox TextAlignment="Justify" Padding="5" FontSize="25" Height="100" TextWrapping="Wrap"/>
-                <ComboBox IsEditable="True" Margin="0,0,12,0" Text="Choose a Category">
+                <TextBox x:Name="Drink_description" TextAlignment="Justify" Padding="5" FontSize="25" Height="100" TextWrapping="Wrap"/>
+                <TextBlock x:Name="Drink_Description_error" Text="" Opacity="1" Background="#DCD0C0" Foreground="Red"/>
+                <TextBlock x:Name="Cat" Grid.Row="1" Grid.Column="1" FontSize="25" FontFamily="Footlight MT Light" Background="#DCD0C0" Text="Spirit Category" Padding="5"/>
+                <ComboBox x:Name="Drink_Cat" IsEditable="False" Margin="0,0,12,0" Text="Choose a Category">
                     <ComboBoxItem>Vodka</ComboBoxItem>
                     <ComboBoxItem>Rum</ComboBoxItem>
                     <ComboBoxItem>Tequila</ComboBoxItem>
@@ -99,6 +103,7 @@
                     <ComboBoxItem>Gin</ComboBoxItem>
                     <ComboBoxItem>Cognac</ComboBoxItem>
                 </ComboBox>
+                <TextBlock x:Name="Drink_Cat_error" Text="" Opacity="0" Background="#DCD0C0" Foreground="Red"/>
             </StackPanel>
         </ScrollViewer>
 

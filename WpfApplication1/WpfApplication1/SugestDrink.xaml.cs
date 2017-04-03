@@ -33,19 +33,55 @@ namespace WpfApplication1
 
         private void Submit_Click(object sender, RoutedEventArgs e)
         {
-            Panel.SetZIndex(Submit_Screen, 99);
-            DoubleAnimation fadeIn = new DoubleAnimation();
-            fadeIn.From = 0;
-            fadeIn.To = 0.98;
-            fadeIn.Duration = new Duration(TimeSpan.FromSeconds(3.0));
-            fadeIn.Completed += new EventHandler(back_main);
+            var error_flag = false;
 
-            Storyboard.SetTarget(fadeIn, Submit_Screen);
-            Storyboard.SetTargetProperty(fadeIn, new PropertyPath(FrameworkElement.OpacityProperty));
-            Storyboard storyboard = new Storyboard();
-            storyboard.Children.Add(fadeIn);
-            storyboard.Begin(Submit_Screen);
+            if (string.IsNullOrEmpty(Drink_name.Text))
+            {
+                Drink_name_error.Text = "Please Enter a Drink Name Before Sumbitting";
+                error_flag = true;
+            }
+            if (string.IsNullOrEmpty(Drink_Recipe.Text)) {
+                Drink_Recipe_error.Text = "Please Enter at Least One Recipe Step for the Drink Before Sumbitting";
+                error_flag = true;
+            }
+            if (string.IsNullOrEmpty(Ingredient_Name.Text)) {
+                Drink_Ingredient_error.Text = "Please Enter at Least One Ingredient for the Drink Before Sumbitting";
+                error_flag = true;
+            }
+            if (!string.IsNullOrEmpty(Ingredient_Name.Text))
+            {
+                if (string.IsNullOrEmpty(Ingredient_Quantity.Text)) {
+                    Drink_Ingredient_error.Text = "Please Enter the Quntity for the First Ingredient Before Sumbitting";
+                    error_flag = true;
+                }
+            }
+            if (string.IsNullOrEmpty(Drink_description.Text))
+            {
+                Drink_Description_error.Text = "Please Enter a Description for the Drink Before Sumbitting";
+                error_flag = true;
+            }
+            if (Drink_Cat.SelectedIndex < 0)
+            {
+                Drink_Cat_error.Text = "Please Select a Category for the Drink Before Sumbitting";
+                error_flag = true;
+                Drink_Cat_error.Opacity = 1;
+            }
 
+            if(!error_flag) {
+
+                Panel.SetZIndex(Submit_Screen, 99);
+                DoubleAnimation fadeIn = new DoubleAnimation();
+                fadeIn.From = 0;
+                fadeIn.To = 0.98;
+                fadeIn.Duration = new Duration(TimeSpan.FromSeconds(3.0));
+                fadeIn.Completed += new EventHandler(back_main);
+
+                Storyboard.SetTarget(fadeIn, Submit_Screen);
+                Storyboard.SetTargetProperty(fadeIn, new PropertyPath(FrameworkElement.OpacityProperty));
+                Storyboard storyboard = new Storyboard();
+                storyboard.Children.Add(fadeIn);
+                storyboard.Begin(Submit_Screen);
+            }
 
         }
         private void back_main(object sender, EventArgs e)
