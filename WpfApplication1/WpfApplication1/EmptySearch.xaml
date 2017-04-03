@@ -15,8 +15,30 @@
         <Button x:Name="Search" FontFamily="Open Sans" Content="🔍" HorizontalAlignment="Left" Margin="23,30,0,0" VerticalAlignment="Top" Width="57" Height="56" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="Search_Click"/>
         <Button x:Name="Cancel" Content="Cancel" Background="#F4F4F4" HorizontalAlignment="Left" Margin="620,42,0,0" VerticalAlignment="Top" Width="92" Height="48" Click="Cancel_Click"/>
 
-        
+        <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" PanningMode="VerticalOnly" HorizontalAlignment="Left" Width="736" Margin="0,120,-1,440">
+            <StackPanel Orientation="Vertical" Width="749">
 
+                <Button x:Name="WhiteRussian" FontSize="48" Background="#DCD0C0"  Margin="0,0,0,0" VerticalAlignment="Top" Height="196" Click="WhiteRussian_Click" Grid.ColumnSpan="2">
+                    <Ellipse Stroke="#dcd0c0" StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="-300,0,0,0">
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="/Images/WRussian.jpg" Stretch="UniformToFill" />
+                        </Ellipse.Fill>
+                    </Ellipse>
+                </Button>
+                <TextBlock x:Name="textBlock1" Text="White Russian" HorizontalAlignment="Left" Margin="275,-120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="470" FontFamily="Felix Titling" FontSize="40"/>
+
+                <Button x:Name="Mojito" FontSize="48" Background="#F4F4F4"  Margin="0,0,0,0" VerticalAlignment="Top" Height="196" Click="Mojito_Click" Grid.ColumnSpan="2">
+                    <Ellipse Stroke="#dcd0c0" StrokeThickness="1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="159" Height="159" Margin="-300,0,0,0">
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="/Images/Mojito.jpg" Stretch="UniformToFill" />
+                        </Ellipse.Fill>
+                    </Ellipse>
+                </Button>
+                <TextBlock x:Name="textBlock2" Text="Mojito" HorizontalAlignment="Left" Margin="275,-120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="470" FontFamily="Felix Titling" FontSize="40"/>
+
+
+            </StackPanel>
+        </ScrollViewer>
 
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Bottom" Width="742" Height="430" >
             <Button.Template>

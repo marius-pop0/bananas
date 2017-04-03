@@ -37,5 +37,17 @@ namespace WpfApplication1
             MainPage main = new MainPage();
             NavigationService.Navigate(main);
         }
+
+        private void WhiteRussian_Click(object sender, RoutedEventArgs e)
+        {
+            WhiteRussianProfile WRprofile = new WhiteRussianProfile();
+            NavigationService.Navigate(WRprofile);
+        }
+
+        private void Mojito_Click(object sender, RoutedEventArgs e)
+        {
+            MojitoProfile MJprofile = new MojitoProfile();
+            NavigationService.Navigate(MJprofile);
+        }
     }
 }
