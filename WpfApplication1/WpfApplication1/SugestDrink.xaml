@@ -13,7 +13,7 @@
         <Rectangle Fill="#373737" HorizontalAlignment="Left" Height="1166" Margin="-1,119,0,0" Stroke="Transparent" StrokeThickness="0" VerticalAlignment="Top" Width="752"/>
         <TextBlock x:Name="PageTitle" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="120,0,0,0" TextWrapping="NoWrap" Padding="30" FontSize="40" Text="Suggest" FontFamily="Felix Titling" TextAlignment="Center" Width="502"/>
         <Button x:Name="Settings" FontFamily="Arial Black" Content="&#8592;" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="120" Height="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="Back_Click"/>
-        <Button x:Name="Search" FontFamily="Open Sans" Content="Submit" HorizontalAlignment="Left" Margin="574,0,0,0" VerticalAlignment="Top" Width="175" Height="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="Submit_Click"/>
+        <Button x:Name="Search" FontFamily="Felix Titling" Content="Submit" HorizontalAlignment="Left" Margin="570,0,0,0" VerticalAlignment="Top" Width="175" Height="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="Submit_Click"/>
 
 
 
@@ -26,8 +26,8 @@
                         </ControlTemplate>
                     </Button.Template>
                 </Button>
-                <TextBlock Text="Drink Info" Background="WhiteSmoke" FontFamily="Felix Titling" FontSize="40"/>
-                <TextBlock x:Name="Drink_name" Grid.Column="1" FontSize="25" TextWrapping="Wrap" Text="Drink Name" Padding="5" GotFocus="TextBlock_GotFocus"/>
+                <TextBlock Text="Drink Info" Background="WhiteSmoke" FontFamily="Footlight MT Light" FontSize="40"/>
+                <TextBlock x:Name="Drink_name" Grid.Column="1" FontSize="25" FontFamily="Footlight MT Light" TextWrapping="Wrap" Text="Drink Name" Padding="5" Background="#DCD0C0" GotFocus="TextBlock_GotFocus"/>
                 <TextBox Height="50" Padding="5" FontSize="25" TextAlignment="Left" TextWrapping="Wrap"/>
                 <Grid x:Name="Ingredient">
                     <Grid.ColumnDefinitions>
@@ -35,8 +35,8 @@
                         <ColumnDefinition Width="563*"/>
                     </Grid.ColumnDefinitions>
 
-                    <TextBlock FontSize="25" Text="Ingredient" Padding="5" TextWrapping="NoWrap" GotFocus="TextBlock_GotFocus" Margin="0,0,250,0" Grid.ColumnSpan="2"/>
-                    <TextBlock Grid.Column="1" FontSize="25" Text="Quantity" TextWrapping="NoWrap" TextAlignment="Center" Padding="5" Margin="313,0,115,0"/>
+                    <TextBlock FontSize="25" FontFamily="Footlight MT Light" Text="Ingredient" Padding="12" TextWrapping="NoWrap" GotFocus="TextBlock_GotFocus" Margin="0,0,250,0" Background="#DCD0C0" Grid.ColumnSpan="2"/>
+                    <TextBlock Grid.Column="1" FontSize="25" FontFamily="Footlight MT Light" Text="Quantity" TextWrapping="NoWrap" TextAlignment="Center" Padding="12" Background="#DCD0C0" Margin="313,0,115,0"/>
                     <Button x:Name="Plus" Content="Button" HorizontalAlignment="Right" VerticalAlignment="Top" Width="50" Margin="0,0,65,0" Click="Plus_Click" Grid.Column="1">
                         <Button.Template>
                             <ControlTemplate>
@@ -54,7 +54,7 @@
                 </Grid>
                 <Grid x:Name="Ingredient_List">
                     <TextBox FontSize="25"  Padding="5" TextWrapping="NoWrap" Margin="0,0,236,0"/>
-                    <TextBox FontSize="25" TextWrapping="NoWrap" TextAlignment="Center" Padding="5" HorizontalAlignment="Right" Width="235"/>
+                    <TextBox FontSize="25" TextWrapping="NoWrap" TextAlignment="Center" Padding="5" HorizontalAlignment="Right" Width="250"/>
                 </Grid>
 
                 <Grid x:Name="Recipe">
@@ -63,7 +63,7 @@
                         <ColumnDefinition Width="563*"/>
                     </Grid.ColumnDefinitions>
 
-                    <TextBlock FontSize="25" Text="Recipe" Padding="5" TextWrapping="NoWrap" GotFocus="TextBlock_GotFocus" Grid.ColumnSpan="2"/>
+                    <TextBlock FontSize="25" FontFamily="Footlight MT Light" Text="Recipe" Padding="12" TextWrapping="NoWrap" GotFocus="TextBlock_GotFocus" Background="#DCD0C0" Grid.ColumnSpan="2"/>
                     
                     <Button x:Name="Plus_2" Content="Button" HorizontalAlignment="Right" VerticalAlignment="Top" Width="50" Margin="0,0,65,0" Click="Plus_Click" Grid.Column="1">
                         <Button.Template>
@@ -81,11 +81,11 @@
                     </Button>
                 </Grid>
                 <Grid x:Name="Recipe_List_1">
-                    <TextBlock Text="1." Padding="5" FontSize="25" Width="30" HorizontalAlignment="Left"/>
+                    <TextBlock Text="1." Padding="5" FontSize="25" FontFamily="Footlight MT Light" Width="30" Background="#DCD0C0" HorizontalAlignment="Left" Height="46" Margin="0,0,0,-0.5" VerticalAlignment="Top"/>
                     <TextBox FontSize="25"  Padding="5" TextWrapping="NoWrap" Margin="30,0,0,0"/>
                 </Grid>
 
-                <TextBlock x:Name="Description" Grid.Row="1" Grid.Column="1" FontSize="25" Text="Drink Description" Padding="5"/>
+                <TextBlock x:Name="Description" Grid.Row="1" Grid.Column="1" FontSize="25" FontFamily="Footlight MT Light" Background="#DCD0C0" Text="Drink Description" Padding="5"/>
                 <TextBox TextAlignment="Justify" Padding="5" FontSize="25" Height="100" TextWrapping="Wrap"/>
                 <ComboBox IsEditable="True" Margin="0,0,12,0" Text="Choose a Category">
                     <ComboBoxItem>Vodka</ComboBoxItem>
