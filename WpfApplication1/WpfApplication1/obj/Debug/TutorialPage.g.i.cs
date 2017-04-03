@@ -113,7 +113,7 @@ namespace WpfApplication1 {
         #line hidden
         
         
-        #line 106 "..\..\TutorialPage.xaml"
+        #line 105 "..\..\TutorialPage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBlock textBlock;
         

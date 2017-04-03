@@ -95,7 +95,6 @@
                         </ControlTemplate>
                     </Button.Template>
                 </Button>
-
             </StackPanel>
         </ScrollViewer>
         <Rectangle HorizontalAlignment="Left" Height="469" Margin="250,275,0,0" Stroke="Transparent" StrokeThickness="1" VerticalAlignment="Top" Width="310" RenderTransformOrigin="-3.57,-2.1">
@@ -104,8 +103,6 @@
             </Rectangle.Fill>
         </Rectangle>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="280,530,0,0" TextWrapping="Wrap" Text="This is the scrollable Favourites Bar, and the drinks in it are user saved. Clicking on a drink in the Favorites Bar will open it's Drink Profile." VerticalAlignment="Top" Height="118" Width="277"/>
-
-
 
     </Grid>
 </Page>
