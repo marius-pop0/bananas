@@ -11,13 +11,9 @@
     <Grid Name="Content">
         <Rectangle Fill="#F4F4F4" HorizontalAlignment="Left" Height="120" Margin="0,0,0,0" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="750"/>
         <TextBlock x:Name="PageTitle" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="120,0,0,0" TextWrapping="NoWrap" Padding="40" FontSize="40" Text="Tutorial" FontFamily="Felix Titling" TextAlignment="Center" Width="502"/>
-        <Image Margin="0,120,0,0" >
-            <Image.Source>
-                <BitmapImage UriSource="/Images\Drink_Profile_Tutorial.png"></BitmapImage>
-            </Image.Source>
-        </Image>
+        <Image Margin="0,120,0,0" Source="/Images\Drink_Profile_Tutorial.png" />
         <Button x:Name="Back" FontFamily="Arial Black" Content="&#8592;" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="120" Height="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" IsEnabled="True" Click="Back_Click"/>
         <Button x:Name="Forward" FontFamily="Arial Black" Content="&#8594;" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" Width="120" Height="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" IsEnabled="False" Click="NextButton_Click"/>
-        <Button x:Name="Done" FontFamily="Arial Black" Content="Done;" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Bottom" Width="120" Height="120" BorderBrush="Transparent"  Background="Transparent" FontSize="40" Click="Done_Click"/>
+        <Button x:Name="Done" FontFamily="Arial Black" Content="Done" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Bottom" Width="120" Height="120" BorderBrush="Transparent"  Background="Transparent" FontSize="40" Click="Done_Click"/>
     </Grid>
 </Page>

@@ -237,6 +237,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\bMargarita.jpg" />
+    <Resource Include="Images\Categories_Bar.png" />
     <Resource Include="Images\CLibre.jpg" />
     <Resource Include="Images\Keyboard.jpg" />
     <Resource Include="Images\Margarita.jpg" />
@@ -262,6 +263,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\ArrowDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Drink_Profile_Tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Favorites_Bar_Tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Main_Screen_Tutorial.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
