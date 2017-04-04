@@ -326,3 +326,9 @@ C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\ob
 \\samba.cs.ucalgary.ca\mmpop\Documents\CPSC481Project\tmp\bananas\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
 \\samba.cs.ucalgary.ca\mmpop\Documents\CPSC481Project\tmp\bananas\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
 \\samba.cs.ucalgary.ca\mmpop\Documents\CPSC481Project\tmp\bananas\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage.g.cs
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage2.g.cs
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage3.g.cs
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage.baml
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage2.baml
+C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage3.baml

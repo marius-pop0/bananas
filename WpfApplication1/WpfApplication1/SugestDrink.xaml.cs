@@ -33,41 +33,72 @@ namespace WpfApplication1
 
         private void Submit_Click(object sender, RoutedEventArgs e)
         {
-            var error_flag = false;
+            var error_count = 0;
 
             if (string.IsNullOrEmpty(Drink_name.Text))
             {
                 Drink_name_error.Text = "Please Enter a Drink Name Before Sumbitting";
-                error_flag = true;
+                error_count--;
+            }
+            else {
+                Drink_name_error.Text = "";
+                error_count++;
             }
             if (string.IsNullOrEmpty(Drink_Recipe.Text)) {
                 Drink_Recipe_error.Text = "Please Enter at Least One Recipe Step for the Drink Before Sumbitting";
-                error_flag = true;
+                error_count--;
+            }
+            else
+            {
+                Drink_Recipe_error.Text = "";
+                error_count++;
             }
             if (string.IsNullOrEmpty(Ingredient_Name.Text)) {
                 Drink_Ingredient_error.Text = "Please Enter at Least One Ingredient for the Drink Before Sumbitting";
-                error_flag = true;
+                error_count--;
+            }
+            else
+            {
+                Drink_Ingredient_error.Text = "";
+                error_count++;
             }
             if (!string.IsNullOrEmpty(Ingredient_Name.Text))
             {
                 if (string.IsNullOrEmpty(Ingredient_Quantity.Text)) {
                     Drink_Ingredient_error.Text = "Please Enter the Quntity for the First Ingredient Before Sumbitting";
-                    error_flag = true;
+                    error_count--;
+                }
+                else
+                {
+                    Drink_Ingredient_error.Text = "";
+                    error_count++;
                 }
             }
+            
             if (string.IsNullOrEmpty(Drink_description.Text))
             {
                 Drink_Description_error.Text = "Please Enter a Description for the Drink Before Sumbitting";
-                error_flag = true;
+                error_count--;
+            }
+            else
+            {
+                Drink_Description_error.Text = "";
+                error_count++;
             }
             if (Drink_Cat.SelectedIndex < 0)
             {
                 Drink_Cat_error.Text = "Please Select a Category for the Drink Before Sumbitting";
-                error_flag = true;
+                error_count--;
                 Drink_Cat_error.Opacity = 1;
             }
+            else
+            {
+                Drink_Cat_error.Text = "";
+                Drink_Cat_error.Opacity = 0;
+                error_count++;
+            }
 
-            if(!error_flag) {
+            if (error_count==6) {
 
                 Panel.SetZIndex(Submit_Screen, 99);
                 DoubleAnimation fadeIn = new DoubleAnimation();
