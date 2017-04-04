@@ -109,6 +109,9 @@
     <Compile Include="TutorialPage3.xaml.cs">
       <DependentUpon>TutorialPage3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TutorialPage4.xaml.cs">
+      <DependentUpon>TutorialPage4.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WhiteRussianProfile.xaml.cs">
       <DependentUpon>WhiteRussianProfile.xaml</DependentUpon>
     </Compile>
@@ -193,6 +196,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TutorialPage3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TutorialPage4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

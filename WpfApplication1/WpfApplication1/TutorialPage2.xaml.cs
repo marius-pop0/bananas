@@ -29,13 +29,7 @@ namespace WpfApplication1
             InitializeComponent();
         }
 
-        private void grapeMargaritaButton_Click(object sender, RoutedEventArgs e)
-        {
-            GrapeMargaritaProfile profile = new GrapeMargaritaProfile();
-            NavigationService.Navigate(profile);
-        }
-  
-        private void Cancel_Click(object sender, RoutedEventArgs e)
+        private void Done_Click(object sender, RoutedEventArgs e)
         {
             MainPage main = new MainPage();
             NavigationService.Navigate(main);
@@ -45,6 +39,11 @@ namespace WpfApplication1
         {
             TutorialPage3 next = new TutorialPage3();
             NavigationService.Navigate(next);
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GoBack();
         }
 
     }

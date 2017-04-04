@@ -12,22 +12,18 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Windows.Media.Animation;
-
-
 
 namespace WpfApplication1
 {
     /// <summary>
-    /// Interaction logic for TutorialPage.xaml
+    /// Interaction logic for TutorialPage4.xaml
     /// </summary>
-    public partial class TutorialPage : Page
+    public partial class TutorialPage4 : Page
     {
-        public TutorialPage()
+        public TutorialPage4()
         {
             InitializeComponent();
         }
-
         private void Done_Click(object sender, RoutedEventArgs e)
         {
             MainPage main = new MainPage();
@@ -36,13 +32,12 @@ namespace WpfApplication1
 
         private void NextButton_Click(object sender, RoutedEventArgs e)
         {
-            TutorialPage2 next = new TutorialPage2();
-            NavigationService.Navigate(next);
+            
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            
+            NavigationService.GoBack();
         }
     }
 }
