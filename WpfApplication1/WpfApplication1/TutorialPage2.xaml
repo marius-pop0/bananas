@@ -8,35 +8,13 @@
       d:DesignHeight="1334" d:DesignWidth="750"
       Title="TutorialPage2">
 
-    <Grid>
-
+    <Grid Name="Content">
+        <Rectangle Fill="#373737" HorizontalAlignment="Left" VerticalAlignment="Top" Height="1334" Width="750"/>
         <Rectangle Fill="#F4F4F4" HorizontalAlignment="Left" Height="120" Margin="0,0,0,0" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="750"/>
         <TextBlock x:Name="PageTitle" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Margin="120,0,0,0" TextWrapping="NoWrap" Padding="40" FontSize="40" Text="Tutorial" FontFamily="Felix Titling" TextAlignment="Center" Width="502"/>
-        <Button x:Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top" Width="136" Height="71" Click="Cancel_Click"/>
-        <Button x:Name="NextButton" Content="Next" HorizontalAlignment="Left" Margin="586,29,0,0" VerticalAlignment="Top" Width="136" Height="71" Click="NextButton_Click"/>
-        <StackPanel Orientation="Vertical" Width="749">
-
-            <Rectangle HorizontalAlignment="Left" Height="283" Margin="309,0,0,0" Stroke="Transparent" StrokeThickness="1" VerticalAlignment="Top" Width="200" RenderTransformOrigin="-3.57,-2.1">
-                <Rectangle.Fill>
-                    <ImageBrush ImageSource="Images/ArrowDown.png" Stretch="UniformToFill"/>
-                </Rectangle.Fill>
-            </Rectangle>
-
-            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="140,-15,0,0" TextWrapping="Wrap" Text="Below the Favourites Bar is the list of drink available within Drink Box. Each tile contains the name, picture and brief description of the drink. Tapping once on the picture will take you to the Drink Profile and double tapping will favorite the drink." VerticalAlignment="Top" Height="47" Width="486"/>
-
-
-            <TextBlock x:Name="grapeMargarita" Background="#F4F4F4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="120" Width="750" Margin="0,10,0,0" TextWrapping="NoWrap" Padding="40" FontSize="36" Text="GrapeFruit Margarita" FontFamily="Felix Titling" TextAlignment="Left" />
-                <Button x:Name="grapeMargaritaButton" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="500" Click="grapeMargaritaButton_Click">
-                    <Button.Template>
-                        <ControlTemplate>
-                            <Image Source="/Images\GMargarita.jpg" Stretch="Fill"/>
-                        </ControlTemplate>
-                    </Button.Template>
-                </Button>
-                <TextBlock x:Name="grapeMargaritaDescription" Background="#DCD0C0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="300" Margin="0,1,0,0" TextWrapping="NoWrap" Padding="10" FontSize="34" 
-                           Text="&#x2764; 28 &#x0a;&#x0a;&#x0a;A tequila cocktail mixed with orange, lime and&#x0a;grapefruit juice in addition to simple syrup" 
-                           FontFamily="Footlight MT Light" TextAlignment="Left" Width="750"/>
-
-        </StackPanel>
+        <Image Margin="0,120,0,0" Source="/Images\Favorites_Bar_Tutorial.png" />
+        <Button x:Name="Back" FontFamily="Arial Black" Content="&#8592;" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="120" Height="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" IsEnabled="True" Click="Back_Click"/>
+        <Button x:Name="Forward" FontFamily="Arial Black" Content="&#8594;" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" Width="120" Height="120" BorderBrush="Transparent"  Background="#F4F4F4" FontSize="40" Click="NextButton_Click"/>
+        <Button x:Name="Done" FontFamily="Arial Black" Content="Done" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Bottom" Width="120" Height="120" BorderBrush="Transparent"  Background="Transparent" FontSize="40" Click="Done_Click"/>
     </Grid>
 </Page>

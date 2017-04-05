@@ -98,8 +98,11 @@ namespace WpfApplication1
                 error_count++;
             }
 
-            if (error_count==6) {
-
+            if (error_count == 6)
+            {
+                Submit_Screen.Text = "Thank You for Submitting!";
+                Submit_Screen.FontSize = 45;
+                Submit_Screen.Foreground = new SolidColorBrush(Colors.White);
                 Panel.SetZIndex(Submit_Screen, 99);
                 DoubleAnimation fadeIn = new DoubleAnimation();
                 fadeIn.From = 0;
@@ -113,6 +116,25 @@ namespace WpfApplication1
                 storyboard.Children.Add(fadeIn);
                 storyboard.Begin(Submit_Screen);
             }
+            else {
+                Submit_Screen.Text = "Error\nPlease Fix the Errors Before Submitting";
+                Submit_Screen.FontSize = 35;
+                Submit_Screen.Foreground = new SolidColorBrush(Colors.Red);
+                Panel.SetZIndex(Submit_Screen, 99);
+                DoubleAnimation fadeIn = new DoubleAnimation();
+                fadeIn.From = 0;
+                fadeIn.To = 0.98;
+                fadeIn.Duration = new Duration(TimeSpan.FromSeconds(3.0));
+                fadeIn.AutoReverse = true;
+                fadeIn.Completed += new EventHandler(arrange);
+
+                Storyboard.SetTarget(fadeIn, Submit_Screen);
+                Storyboard.SetTargetProperty(fadeIn, new PropertyPath(FrameworkElement.OpacityProperty));
+                Storyboard storyboard = new Storyboard();
+                storyboard.Children.Add(fadeIn);
+                storyboard.Begin(Submit_Screen);
+                
+            }
 
         }
         private void back_main(object sender, EventArgs e)
@@ -121,6 +143,10 @@ namespace WpfApplication1
             NavigationService.Navigate(mp);
             //Maybe Better to just go Back?
             //NavigationService.GoBack();
+        }
+        private void arrange(object sender, EventArgs e)
+        {
+            Panel.SetZIndex(Submit_Screen, 0);
         }
         private void vodkaCat_Click(object sender, RoutedEventArgs e)
         {

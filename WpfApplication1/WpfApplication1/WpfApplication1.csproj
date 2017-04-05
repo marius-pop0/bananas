@@ -109,6 +109,9 @@
     <Compile Include="TutorialPage3.xaml.cs">
       <DependentUpon>TutorialPage3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TutorialPage4.xaml.cs">
+      <DependentUpon>TutorialPage4.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WhiteRussianProfile.xaml.cs">
       <DependentUpon>WhiteRussianProfile.xaml</DependentUpon>
     </Compile>
@@ -196,6 +199,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="TutorialPage4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="WhiteRussianProfile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -219,6 +226,11 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="Images\Categories_Bar.psd" />
+    <None Include="Images\Drink_Profile.psd" />
+    <None Include="Images\Favorites_Bar.psd" />
+    <None Include="Images\Main_Screen.psd" />
+    <None Include="Images\ps73FA.tmp" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -251,10 +263,16 @@
     <Resource Include="Images\Plus.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Arrow1.png" />
+    <Resource Include="Images\Categories_Bar.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\ArrowDown.png" />
+    <Resource Include="Images\Drink_Profile_Tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Favorites_Bar_Tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Main_Screen_Tutorial.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

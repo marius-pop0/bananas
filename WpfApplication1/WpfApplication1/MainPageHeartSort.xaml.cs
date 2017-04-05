@@ -143,7 +143,8 @@ namespace WpfApplication1
 
         private void Suggestion_Click(object sender, RoutedEventArgs e)
         {
-
+            SugestDrink sg = new SugestDrink();
+            NavigationService.Navigate(sg);
         }
 
         private void Random_Click(object sender, RoutedEventArgs e)
@@ -154,7 +155,8 @@ namespace WpfApplication1
 
         private void Tutorials_Click(object sender, RoutedEventArgs e)
         {
-
+            TutorialPage tutorial = new TutorialPage();
+            NavigationService.Navigate(tutorial);
         }
 
         private void Favorite_Click(object sender, RoutedEventArgs e)

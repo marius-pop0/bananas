@@ -9,7 +9,7 @@
       Title="SugestDrink">
 
     <Grid>
-        <TextBlock x:Name="Submit_Screen" Text="Thank You for Submitting!" TextAlignment="Center" Padding="100" FontSize="45" Opacity="0" Background="#373737" Foreground="White" Height="1334" Width="750"/>
+        <TextBlock x:Name="Submit_Screen" Text="" TextAlignment="Center" Padding="85" FontSize="45" Opacity="0" Background="#373737" Foreground="White" Height="1334" Width="750"/>
 
         <Rectangle Fill="#F4F4F4" HorizontalAlignment="Left" Height="120" Margin="0,0,0,0" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="750"/>
         <Rectangle Fill="#373737" HorizontalAlignment="Left" Height="1166" Margin="-1,119,0,0" Stroke="Transparent" StrokeThickness="0" VerticalAlignment="Top" Width="752"/>
@@ -19,9 +19,9 @@
 
 
 
-        <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" PanningMode="VerticalOnly" HorizontalAlignment="Left" Width="736" Margin="-1,120,0,49">
+        <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" PanningMode="VerticalOnly" HorizontalAlignment="Left" Width="736" Margin="-1,120,0,480">
             <StackPanel Orientation="Vertical" Width="750">
-                <Button x:Name="Add_a_Photo" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="500" Click="Add_a_Photo_Click">
+                <Button x:Name="Add_a_Photo" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0"  Width="750" Height="470" Click="Add_a_Photo_Click">
                     <Button.Template>
                         <ControlTemplate>
                             <Image Source="/Images\Add_a_Photo.jpg" Stretch="Fill"/>
@@ -107,18 +107,13 @@
             </StackPanel>
         </ScrollViewer>
 
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Bottom" Width="742" Height="430" >
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="/Images/Keyboard.jpg"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
 
-        <ScrollViewer HorizontalScrollBarVisibility="Hidden" PanningMode="HorizontalOnly" VerticalScrollBarVisibility="Hidden" VerticalAlignment="Bottom" Margin="0,69,0,0">
-            <StackPanel Orientation="Horizontal">
-                <Button x:Name="vodkaCat" Content="VODKA" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#DCD0C0" Height="49" Click="vodkaCat_Click" BorderThickness="0" FontFamily="Felix Titling" FontSize="25"/>
-                <Button x:Name="rumCat" Content="RUM" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left"  Width="170" Background="#F4F4F4" Height="49" Click="rumCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="tequilaCat" Content="TEQUILA" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#DCD0C0" Height="49" Click="tequilaCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="whiskyCat" Content="WHISKY" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#F4F4F4" Height="49" Click="whiskyCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="liqueurCat" Content="LIQUEUR" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#DCD0C0" Height="49" Click="liqueurCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="brandyCat" Content="Brandy" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#F4F4F4" Height="49" Click="brandyCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="ginCat" Content="GIN" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#DCD0C0" Height="49" Click="ginCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-                <Button x:Name="cognacCat" Content="COGNAC" BorderBrush="Transparent" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="170" Background="#F4F4F4" Height="49" Click="cognacCat_Click" BorderThickness="0" FontSize="25" FontFamily="Felix Titling"/>
-            </StackPanel>
-        </ScrollViewer>
     </Grid>
 </Page>

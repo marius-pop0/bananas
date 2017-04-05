@@ -28,7 +28,7 @@ namespace WpfApplication1
             InitializeComponent();
         }
 
-        private void Cancel_Click(object sender, RoutedEventArgs e)
+        private void Done_Click(object sender, RoutedEventArgs e)
         {
             MainPage main = new MainPage();
             NavigationService.Navigate(main);
@@ -40,33 +40,9 @@ namespace WpfApplication1
             NavigationService.Navigate(next);
         }
 
-        private void whiteRussianFave_Click(object sender, RoutedEventArgs e)
+        private void Back_Click(object sender, RoutedEventArgs e)
         {
-            WhiteRussianProfile WRprofile = new WhiteRussianProfile();
-            NavigationService.Navigate(WRprofile);
-        }
-
-        private void tequilaSunriseFave_Click(object sender, RoutedEventArgs e)
-        {
-            TequilaSunriseProfile TSprofile = new TequilaSunriseProfile();
-            NavigationService.Navigate(TSprofile);
-        }
-
-        private void mojitoFave_Click(object sender, RoutedEventArgs e)
-        {
-            MojitoProfile MJprofile = new MojitoProfile();
-            NavigationService.Navigate(MJprofile);
-        }
-
-        private void cubaLibreFave_Click(object sender, RoutedEventArgs e)
-        {
-            CubaLibreProfile CBprofile = new CubaLibreProfile();
-            NavigationService.Navigate(CBprofile);
-        }
-        private void margaritaFave_Click(object sender, RoutedEventArgs e)
-        {
-            MargaritaProfile MGprofile = new MargaritaProfile();
-            NavigationService.Navigate(MGprofile);
+            
         }
     }
 }

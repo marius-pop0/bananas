@@ -332,3 +332,5 @@ C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\De
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage.baml
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage2.baml
 C:\Users\Marius\Documents\CPSC481\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage3.baml
+C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage4.g.cs
+C:\Users\Francisco Garcia\Desktop\git\bananas\WpfApplication1\WpfApplication1\obj\Debug\TutorialPage4.baml
